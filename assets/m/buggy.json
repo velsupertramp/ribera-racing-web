@@ -1,0 +1,29 @@
+{
+ "id": "buggy",
+ "name": "Buggy Sonorama",
+ "len": 3.313,
+ "wid": 1.794,
+ "hgt": 2.374,
+ "wheelbase": 2.0,
+ "track": 1.28,
+ "wheelR": 0.382,
+ "wheelR_rear": 0.456,
+ "axles_y": [
+  -1.02,
+  0.98
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr"
+ ],
+ "notes": "Buggy Sonorama: identidad original del festival sobre fibra azul petróleo, jaula cromada, monitores sujetos al arco, flight case y micrófono. Bóxer al aire y banderín conservados. hgt incluye el banderín de látigo (2,30 m); la jaula llega a 1,64 m.",
+ "track_rear": 1.33,
+ "wid_mirrors": 1.794,
+ "tris": 28260,
+ "toy": 1.232,
+ "cartoon": 6,
+ "susp_comp": 0.035
+}

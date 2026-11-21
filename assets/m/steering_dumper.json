@@ -1,0 +1,35 @@
+{
+  "wheelCenter": [
+    0,
+    0.338,
+    0.258
+  ],
+  "wheelCenterBlender": [
+    0,
+    -0.258,
+    0.338
+  ],
+  "wheelRadius": 0.132,
+  "wheelOuterRadius": 0.142,
+  "wheelAxis": [
+    0,
+    -0.479425538604203,
+    0.8775825618903728
+  ],
+  "wheelAxisBlender": [
+    0,
+    -0.8775825618903728,
+    -0.479425538604203
+  ],
+  "wheelRotationNode": "wheel_rotor",
+  "fixedColumnNode": "fixed_steering_column",
+  "wheelTiltDegrees": -28.64788975654116,
+  "wheelSteerAngle": 0.3490658503988659,
+  "visualSteerFactor": 0.3490658503988659,
+  "factorConvention": "Apply visualSteerFactor to normalized steering weight [-1,+1], not raw physics steer. steer_left=-20deg around the reported tilted Three wheelAxis; physics positive steer means left. Actor hands solved for same motion.",
+  "localOrigin": "Centre of rim. Driver-facing normal is opposite wheelAxis; column extends along wheelAxis toward dashboard. Place at wheelCenter in driver coordinate space, then apply same driver scale and translation.",
+  "columnDirection": "Fixed authored curved support runs down from the rim and back to the chassis between the operator legs. Only wheel_rotor moves; wheel tilt -28.648deg.",
+  "triangles": 3056,
+  "license": "Original meshes/materials authored for Ribera Racing; no copied logo or external model",
+  "limit": "Industrial work-machine wheel, authored interpretation; not claimed exact AUSA model/part."
+}

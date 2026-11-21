@@ -1,0 +1,679 @@
+{
+ "note": "Casas castellanas. Origen en el centro de la base de cada objeto; fachada principal (puerta) hacia +Z del juego (-Y de Blender). Medidas en metros. width = ancho de muros en x; depth = fondo de muros en z; height = cota máxima (cumbrera/chimenea); bbox incluye aleros, balcones, bancos y cobertizos. party_walls: lados ciegos (medianeras) que pueden adosarse a otra casa; free_sides: lados con huecos. Para la versión simétrica de una casa de esquina, escalar x = -1.",
+ "front": "+z",
+ "houses": {
+  "house_01": {
+   "width": 8.0,
+   "depth": 8.0,
+   "height": 9.71,
+   "eave_height": 6.35,
+   "ridge_height": 8.29,
+   "floors": 2,
+   "roof": "gable_x",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": 0.0,
+     "z": 4.0,
+     "width": 1.1
+    },
+    {
+     "side": "-z",
+     "x": -1.6,
+     "z": -4.0,
+     "width": 1.0
+    }
+   ],
+   "party_walls": [
+    "-x",
+    "+x"
+   ],
+   "free_sides": [
+    "+z",
+    "-z"
+   ],
+   "bbox": {
+    "x": [
+     -4.12,
+     4.16
+    ],
+    "z": [
+     -4.49,
+     4.51
+    ]
+   },
+   "tris": 1726
+  },
+  "house_02": {
+   "width": 10.0,
+   "depth": 9.0,
+   "height": 10.0,
+   "eave_height": 6.35,
+   "ridge_height": 8.41,
+   "floors": 2,
+   "roof": "gable_x",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": 0.0,
+     "z": 4.5,
+     "width": 1.3
+    }
+   ],
+   "party_walls": [
+    "-x"
+   ],
+   "free_sides": [
+    "+x",
+    "+z",
+    "-z"
+   ],
+   "bbox": {
+    "x": [
+     -5.1,
+     8.13
+    ],
+    "z": [
+     -5.02,
+     4.97
+    ]
+   },
+   "tris": 2451,
+   "leanto_bbox": {
+    "x": [
+     5.0,
+     8.1
+    ],
+    "z": [
+     -2.6,
+     2.6
+    ]
+   }
+  },
+  "house_03": {
+   "width": 7.0,
+   "depth": 7.5,
+   "height": 9.08,
+   "eave_height": 5.9,
+   "ridge_height": 7.85,
+   "floors": 2,
+   "roof": "gable_y",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": -1.4,
+     "z": 3.75,
+     "width": 1.0
+    }
+   ],
+   "party_walls": [],
+   "free_sides": [
+    "+x",
+    "+z"
+   ],
+   "bbox": {
+    "x": [
+     -6.24,
+     3.92
+    ],
+    "z": [
+     -3.9,
+     4.03
+    ]
+   },
+   "tris": 1584,
+   "leanto_bbox": {
+    "x": [
+     -6.2,
+     -3.5
+    ],
+    "z": [
+     -3.05,
+     1.55
+    ]
+   }
+  },
+  "house_04": {
+   "width": 9.0,
+   "depth": 9.0,
+   "height": 12.8,
+   "eave_height": 9.35,
+   "ridge_height": 11.41,
+   "floors": 3,
+   "roof": "gable_x",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": 0.0,
+     "z": 4.5,
+     "width": 1.5
+    },
+    {
+     "side": "-z",
+     "x": 0.0,
+     "z": -4.5,
+     "width": 1.0
+    }
+   ],
+   "party_walls": [
+    "-x",
+    "+x"
+   ],
+   "free_sides": [
+    "+z",
+    "-z"
+   ],
+   "bbox": {
+    "x": [
+     -4.69,
+     4.59
+    ],
+    "z": [
+     -4.94,
+     5.13
+    ]
+   },
+   "tris": 2034
+  },
+  "house_05": {
+   "width": 11.0,
+   "depth": 9.0,
+   "height": 12.69,
+   "eave_height": 9.35,
+   "ridge_height": 11.32,
+   "floors": 3,
+   "roof": "gable_x",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": 0.0,
+     "z": 4.5,
+     "width": 2.3
+    },
+    {
+     "side": "-z",
+     "x": -2.0,
+     "z": -4.5,
+     "width": 1.0
+    }
+   ],
+   "party_walls": [
+    "-x",
+    "+x"
+   ],
+   "free_sides": [
+    "+z",
+    "-z"
+   ],
+   "bbox": {
+    "x": [
+     -5.68,
+     5.62
+    ],
+    "z": [
+     -5.03,
+     5.05
+    ]
+   },
+   "tris": 2438
+  },
+  "house_06": {
+   "width": 12.0,
+   "depth": 10.0,
+   "height": 9.84,
+   "eave_height": 6.35,
+   "ridge_height": 8.61,
+   "floors": 2,
+   "roof": "hip",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": -3.0,
+     "z": 5.0,
+     "width": 2.6
+    },
+    {
+     "side": "+z",
+     "x": 1.0,
+     "z": 5.0,
+     "width": 1.1
+    }
+   ],
+   "party_walls": [],
+   "free_sides": [
+    "+x",
+    "+z",
+    "-z"
+   ],
+   "bbox": {
+    "x": [
+     -9.31,
+     6.64
+    ],
+    "z": [
+     -5.62,
+     5.65
+    ]
+   },
+   "tris": 2974,
+   "leanto_bbox": {
+    "x": [
+     -9.3,
+     -6.0
+    ],
+    "z": [
+     -4.1,
+     1.5
+    ]
+   }
+  },
+  "house_07": {
+   "width": 9.0,
+   "depth": 8.0,
+   "height": 9.41,
+   "eave_height": 6.35,
+   "ridge_height": 8.69,
+   "floors": 2,
+   "roof": "gable_y",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": -2.1,
+     "z": 4.0,
+     "width": 1.1
+    },
+    {
+     "side": "-z",
+     "x": 1.5,
+     "z": -4.0,
+     "width": 1.0
+    }
+   ],
+   "party_walls": [],
+   "free_sides": [
+    "+x",
+    "+z",
+    "-x",
+    "-z"
+   ],
+   "bbox": {
+    "x": [
+     -5.0,
+     5.0
+    ],
+    "z": [
+     -4.13,
+     4.57
+    ]
+   },
+   "tris": 1955
+  },
+  "house_08": {
+   "width": 7.2,
+   "depth": 10.0,
+   "height": 12.87,
+   "eave_height": 9.35,
+   "ridge_height": 11.61,
+   "floors": 3,
+   "roof": "gable_x",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": -1.6,
+     "z": 5.0,
+     "width": 1.1
+    },
+    {
+     "side": "-z",
+     "x": 0.0,
+     "z": -5.0,
+     "width": 1.0
+    }
+   ],
+   "party_walls": [
+    "-x",
+    "+x"
+   ],
+   "free_sides": [
+    "+z",
+    "-z"
+   ],
+   "bbox": {
+    "x": [
+     -3.75,
+     3.78
+    ],
+    "z": [
+     -5.49,
+     5.52
+    ]
+   },
+   "tris": 1747
+  },
+  "house_09": {
+   "width": 10.0,
+   "depth": 8.5,
+   "height": 9.86,
+   "eave_height": 6.35,
+   "ridge_height": 8.39,
+   "floors": 2,
+   "roof": "gable_x",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": 0.0,
+     "z": 3.7,
+     "width": 1.5
+    },
+    {
+     "side": "-z",
+     "x": 0.0,
+     "z": -4.25,
+     "width": 1.0
+    }
+   ],
+   "party_walls": [
+    "-x",
+    "+x"
+   ],
+   "free_sides": [
+    "+z",
+    "-z"
+   ],
+   "bbox": {
+    "x": [
+     -5.1,
+     5.17
+    ],
+    "z": [
+     -4.71,
+     4.77
+    ]
+   },
+   "tris": 2006,
+   "arcade": {
+    "depth": 0.55,
+    "height": 3.0,
+    "style": "canes"
+   }
+  },
+  "house_10": {
+   "width": 9.0,
+   "depth": 9.0,
+   "height": 10.03,
+   "eave_height": 6.35,
+   "ridge_height": 8.59,
+   "floors": 2,
+   "roof": "hip",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": 0.0,
+     "z": 4.5,
+     "width": 1.25
+    },
+    {
+     "side": "-z",
+     "x": -1.5,
+     "z": -4.5,
+     "width": 1.0
+    }
+   ],
+   "party_walls": [],
+   "free_sides": [
+    "+x",
+    "+z",
+    "-x",
+    "-z"
+   ],
+   "bbox": {
+    "x": [
+     -5.06,
+     5.1
+    ],
+    "z": [
+     -5.06,
+     5.1
+    ]
+   },
+   "tris": 2719
+  },
+  "arcade_01": {
+   "width": 10.0,
+   "depth": 10.0,
+   "height": 13.15,
+   "eave_height": 9.65,
+   "ridge_height": 11.81,
+   "floors": 3,
+   "roof": "gable_x",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": 1.0,
+     "z": 2.2,
+     "width": 1.2
+    }
+   ],
+   "party_walls": [
+    "-x",
+    "+x"
+   ],
+   "free_sides": [
+    "+z",
+    "-z"
+   ],
+   "bbox": {
+    "x": [
+     -5.49,
+     5.52
+    ],
+    "z": [
+     -5.53,
+     5.47
+    ]
+   },
+   "tris": 2299,
+   "arcade": {
+    "depth": 2.8,
+    "height": 3.3,
+    "style": "stone"
+   }
+  },
+  "arcade_02": {
+   "width": 8.0,
+   "depth": 9.0,
+   "height": 10.0,
+   "eave_height": 6.45,
+   "ridge_height": 8.69,
+   "floors": 2,
+   "roof": "gable_x",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": -1.8,
+     "z": 2.0,
+     "width": 1.1
+    },
+    {
+     "side": "-z",
+     "x": 0.0,
+     "z": -4.5,
+     "width": 1.0
+    }
+   ],
+   "party_walls": [
+    "-x",
+    "+x"
+   ],
+   "free_sides": [
+    "+z",
+    "-z"
+   ],
+   "bbox": {
+    "x": [
+     -4.38,
+     4.42
+    ],
+    "z": [
+     -4.95,
+     5.08
+    ]
+   },
+   "tris": 1750,
+   "arcade": {
+    "depth": 2.5,
+    "height": 3.1,
+    "style": "timber"
+   }
+  },
+  "arcade_03": {
+   "width": 12.0,
+   "depth": 10.0,
+   "height": 13.41,
+   "eave_height": 9.95,
+   "ridge_height": 12.11,
+   "floors": 3,
+   "roof": "gable_x",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": 1.0,
+     "z": 2.0,
+     "width": 1.3
+    },
+    {
+     "side": "-z",
+     "x": 0.0,
+     "z": -5.0,
+     "width": 1.0
+    }
+   ],
+   "party_walls": [
+    "-x",
+    "+x"
+   ],
+   "free_sides": [
+    "+z",
+    "-z"
+   ],
+   "bbox": {
+    "x": [
+     -6.16,
+     6.18
+    ],
+    "z": [
+     -5.53,
+     5.53
+    ]
+   },
+   "tris": 2666,
+   "arcade": {
+    "depth": 3.0,
+    "height": 3.6,
+    "style": "arches"
+   }
+  },
+  "corner_01": {
+   "width": 10.0,
+   "depth": 10.0,
+   "height": 12.69,
+   "eave_height": 9.35,
+   "ridge_height": 11.51,
+   "floors": 3,
+   "roof": "hip_px",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": -2.4,
+     "z": 5.0,
+     "width": 1.5
+    }
+   ],
+   "party_walls": [
+    "-x"
+   ],
+   "free_sides": [
+    "+x",
+    "+z",
+    "-z"
+   ],
+   "bbox": {
+    "x": [
+     -5.14,
+     5.62
+    ],
+    "z": [
+     -5.52,
+     5.61
+    ]
+   },
+   "tris": 2972
+  },
+  "corner_02": {
+   "width": 9.0,
+   "depth": 8.0,
+   "height": 9.79,
+   "eave_height": 6.35,
+   "ridge_height": 8.29,
+   "floors": 2,
+   "roof": "hip_px",
+   "door_side": "+z",
+   "doors": [
+    {
+     "side": "+z",
+     "x": -2.0,
+     "z": 4.0,
+     "width": 1.1
+    },
+    {
+     "side": "+x",
+     "x": 4.5,
+     "z": -1.4,
+     "width": 1.1
+    }
+   ],
+   "party_walls": [
+    "-x"
+   ],
+   "free_sides": [
+    "+x",
+    "+z"
+   ],
+   "bbox": {
+    "x": [
+     -4.61,
+     5.1
+    ],
+    "z": [
+     -6.72,
+     4.59
+    ]
+   },
+   "tris": 2254,
+   "leanto_bbox": {
+    "x": [
+     -0.8,
+     4.0
+    ],
+    "z": [
+     -6.7,
+     -4.0
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+  "anchorId": "puente_moderno",
+  "modelId": "duero69_puentenuevo512",
+  "name": "Puente Nuevo de Maderuelo",
+  "file": "duero69_puentenuevo512.glb",
+  "source": "bridge_modern68-tangent-mobile512.glb",
+  "sha256": "3a006d5b4711699329c2803a65bd39dc2621806c35771a9059ab28e742bbf031",
+  "bytes": 595204,
+  "triangles": 4880,
+  "anchor": {
+    "x": 558,
+    "y": 18,
+    "z": 198.5,
+    "rotationYRad": -0.6510767214444791
+  },
+  "elevationSpace": "local_y_relative_anchor",
+  "noMerge": true,
+  "visualApproved": false,
+  "nativeMetadata": "puente_moderno68.geometry.json",
+  "license": "Original geometry by Codex; photographic material maps CC0, individual sources in retained native metadata",
+  "notes": [
+    "Only four prepared native assets, not full populated Duero.",
+    "No collider exported; contextual architecture remains outside continuous protected race corridor.",
+    "512px data maps are explicitly resampled; channels remain and lossless after resampling.",
+    "Actualfourold/sixteennewarches; compressed game lengths,not a real-site survey. Existing lateral water/heads supported by frozen native terrain API."
+  ]
+}

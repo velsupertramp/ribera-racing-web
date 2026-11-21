@@ -1,0 +1,26 @@
+{
+ "id": "patri",
+ "name": "Autocares Patri · BM Villa de Aranda",
+ "len": 11.376,
+ "wid": 2.832,
+ "hgt": 3.735,
+ "wheelbase": 5.4,
+ "track": 2.14,
+ "wheelR": 0.675,
+ "wheelR_rear": 0.675,
+ "axles_y": [
+  -2.9,
+  2.5
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr"
+ ],
+ "notes": "Autocar tipo Irizar i6 acortado a 11 m. Ruedas traseras gemelas en el mismo objeto (origen centrado entre ambas, x=±0.900). Carrocería 11.0 x 2.55 m; len/wid incluyen los retrovisores de antena (sobresalen ~0.32 m por delante del morro y=-5.50) y el paragolpes trasero.",
+ "toy": 1.25,
+ "cartoon": 6,
+ "susp_comp": 0.06
+}

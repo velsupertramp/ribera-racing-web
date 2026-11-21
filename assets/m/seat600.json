@@ -1,0 +1,28 @@
+{
+ "id": "seat600",
+ "name": "Seiscientos",
+ "len": 3.282,
+ "wid": 1.411,
+ "hgt": 1.8,
+ "wheelbase": 2.0,
+ "track": 1.15,
+ "wheelR": 0.395,
+ "wheelR_rear": 0.395,
+ "axles_y": [
+  -1.08,
+  0.92
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr"
+ ],
+ "notes": "Utilitario español de los 60 (sin logotipos): amarillo con techo blanco, faros redondos, bigote cromado, lamas en la tapa del motor trasero, parachoques con topes, puertas suicidas.",
+ "track_rear": 1.16,
+ "tris": 15452,
+ "toy": 1.464,
+ "cartoon": 6,
+ "susp_comp": 0.035
+}

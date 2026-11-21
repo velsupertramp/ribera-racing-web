@@ -1,0 +1,28 @@
+{
+  "id": "ambulancia",
+  "name": "Ambulancia de Emergencias Sanitarias de Castilla y León «La Ninoni» · interpretación de Renault Master II",
+  "len": 6.291999816894531,
+  "wid": 2.094,
+  "hgt": 3.089817762374878,
+  "wheelbase": 3.66,
+  "track": 1.71,
+  "wheelR": 0.509,
+  "wheelR_rear": 0.509,
+  "axles_y": [
+    -1.985,
+    1.675
+  ],
+  "parts": [
+    "body",
+    "wheel_fl",
+    "wheel_fr",
+    "wheel_rl",
+    "wheel_rr",
+    "lightbar"
+  ],
+  "notes": "Carrocería propia inspirada en la fotografía de damero rojo y amarillo elegida por Adrian. Familia Master II inferida de la referencia; año y conversión exactos sin verificar. Aberturas y lentes alojadas, cuatro ruedas y pivotes conservados, barra y balizas azules reconstruidas. Triángulos de malla 96116. Revisión local 56; conductor anterior aún pendiente.",
+  "wid_mirrors": 2.5979998111724854,
+  "toy": 1.357,
+  "cartoon": 6,
+  "susp_comp": 0.045
+}

@@ -1,0 +1,32 @@
+{
+  "id": "dumper",
+  "name": "Dumper de obra «El Currante»",
+  "len": 3.67922,
+  "wid": 2.13982,
+  "hgt": 2.77408,
+  "wheelbase": 1.85,
+  "track": 1.6,
+  "wheelR": 0.644,
+  "wheelR_rear": 0.644,
+  "axles_y": [
+    -0.95,
+    0.9
+  ],
+  "parts": [
+    "body",
+    "wheel_fl",
+    "wheel_fr",
+    "wheel_rl",
+    "wheel_rr",
+    "skip"
+  ],
+  "notes": [
+    "Dumper Michelón con cazo, carrocería y guardas de chapa propios interpretados sobre la familia AUSA D201AHG. No es una réplica exacta de fábrica ni una homologación. Conos, ruedas, pivotes y dimensiones físicas conservados.",
+    "Ópticas delanteras con reflector, cubierta transparente y mapas propios; pilotos traseros responden a frenada. Marca original del juego recolocada sin cambiar su tipografía. Baliza ámbar propia con dos bancos nativos, activación por defecto conservada.",
+    "Mejora parcial. Piloto55 y ruedas anteriores; cantos de chapa, uniones, carga, desgaste y presupuesto móvil siguen pendientes. El halo y la transparencia no representan una simulación física de refracción."
+  ],
+  "toy": 1.15,
+  "cartoon": null,
+  "susp_comp": 0.035,
+  "modelingRevision": "90-dumper-parcial"
+}

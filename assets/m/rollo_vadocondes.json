@@ -1,0 +1,18 @@
+{
+  "id": "rollo_vadocondes",
+  "source": "Modelo propio sobre fotografías de Turismo Burgos y Ayuntamiento de Vadocondes",
+  "license_geometry": "Original Ribera Racing",
+  "license_textures": "CC0 Poly Haven sandstone_cracks",
+  "dimensions_status": "Interpretación comprimida, sin levantamiento métrico",
+  "height": 9.495,
+  "footprint": [
+    4.05896,
+    4.05896
+  ],
+  "textures": [
+    "basecolor",
+    "normal",
+    "roughness"
+  ],
+  "art_status": "Revisión Codex, aprobación de Adrian pendiente"
+}

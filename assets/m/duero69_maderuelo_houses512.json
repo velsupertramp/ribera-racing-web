@@ -1,0 +1,27 @@
+{
+  "anchorId": "villa",
+  "modelId": "duero69_maderuelo_houses512",
+  "name": "19 casas interpretadas de Maderuelo",
+  "file": "duero69_maderuelo_houses512.glb",
+  "source": "maderuelo_houses68-clean-surface-mapped-tangent-mobile512.glb",
+  "sha256": "778aa7fa3261ff26e4db8e8ecbaef4882d602c479592507f043c3420971f3add",
+  "bytes": 5999580,
+  "triangles": 85838,
+  "anchor": {
+    "x": 518,
+    "y": 23,
+    "z": 143,
+    "rotationYRad": 0
+  },
+  "elevationSpace": "local_y_relative_anchor",
+  "noMerge": true,
+  "visualApproved": false,
+  "nativeMetadata": "maderuelo_houses68.geometry.json",
+  "license": "Original geometry by Codex; photographic material maps CC0, individual sources in retained native metadata",
+  "notes": [
+    "Only four prepared native assets, not full populated Duero.",
+    "No collider exported; contextual architecture remains outside continuous protected race corridor.",
+    "512px data maps are explicitly resampled; channels remain and lossless after resampling.",
+    "Intermediate85,838tri after explicit cleanup of166microscopic numerical faces;82k target is not approved. All114real apertures remain."
+  ]
+}

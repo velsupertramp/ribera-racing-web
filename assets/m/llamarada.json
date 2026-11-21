@@ -1,0 +1,29 @@
+{
+ "id": "llamarada",
+ "name": "Llamarada del Duero",
+ "len": 4.108,
+ "wid": 2.09,
+ "hgt": 2.227,
+ "wheelbase": 2.74,
+ "track": 1.32,
+ "wheelR": 0.408,
+ "wheelR_rear": 0.528,
+ "axles_y": [
+  -1.52,
+  1.22
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr"
+ ],
+ "notes": "Hot rod cupé años 30 original: negro con llamas, techo rebajado, V8 cromado con compresor y 8 escapes, alerón enorme sobre puntales. wid incluye las placas del alerón (2,09 m); sobre ruedas traseras 1,96 m, carrocería 1,22 m.",
+ "track_rear": 1.58,
+ "wid_mirrors": 2.09,
+ "tris": 21658,
+ "toy": 1.2,
+ "cartoon": 6,
+ "susp_comp": 0.035
+}

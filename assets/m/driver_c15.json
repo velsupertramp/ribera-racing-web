@@ -1,0 +1,483 @@
+{
+  "character": "La Contracurva, personaje ficticio para la C15 Hüeso Limited",
+  "headCenter": [
+    0,
+    0.495,
+    0
+  ],
+  "headRadius": 0.10360350459814072,
+  "actorScale": 1.516150411522621,
+  "blinkPeriod": 4.7,
+  "blinkPhase": 2.1,
+  "wheelCenter": [
+    0,
+    0.235,
+    0.3
+  ],
+  "wheelRadius": 0.132,
+  "wheelOuterRadius": 0.142,
+  "wheelAxis": [
+    0,
+    0.25881904510252074,
+    0.9659258262890683
+  ],
+  "wheelRotationNode": "wheel_rotor",
+  "wheelSteerAngle": 0.3490658503988659,
+  "visualSteerFactor": 0.3490658503988659,
+  "fixedColumnNode": "fixed_steering_column",
+  "license": "Quaternius Universal Base Characters Standard, CC0 1.0. Cabeza/cuello, ojos/cejas y superficies anatómicas de manos derivados. Rig propio de 29 huesos, ropa, mechones, cavidad oral, dientes, lengua, expresiones y cinco clips propios; brazos y dedos retargetados para el agarre. No se atribuyen a Quaternius los clips, morphs faciales ni el rig propio. Pesos de dedos adaptados, no idénticos al donante.",
+  "mountMode": "explicitActorScale",
+  "status": "Modelo local de revisión62. Anatomía, manos, atlas de cabello y control de agarre comprobados como cambio parcial. Calidad artística global y carrocería C15 pendientes.",
+  "artifacts": {
+    "actor": {
+      "asset": "driver_c15",
+      "sha256": "4118d067cbc256f5df851845ac6a93824f71ee4914f4e844c759aee931d7fd43",
+      "bytes": 14974680
+    },
+    "wheel": {
+      "asset": "steering_c15",
+      "sha256": "1c443812bfd609cd97c452de5231c42d176d300a23e8f4c80ea89d287eb88028",
+      "bytes": 38788
+    },
+    "body": {
+      "asset": "c15",
+      "sha256": "25d8ea8e397d33251625f8cdc60b56e71c153fa21e7895d2b0c4612fa3e9e6c8",
+      "bytes": 567228,
+      "unchanged": true
+    },
+    "master": {
+      "sha256": "fa916063327a8c8d3d2413b5e48c4263605059c3cd199e53ff0774067ada1d2a"
+    }
+  },
+  "gripIK": {
+    "version": 1,
+    "coordinateSystem": "actor glTF Y-up, unmounted, meters",
+    "masterSHA256": "9faeacdc7e214f2884a00d07c76bea1a23b175d12771c2a4d0d71b61ebefa87e",
+    "boneCount": 29,
+    "sides": {
+      "L": {
+        "bones": {
+          "upperArm": "upper_arm.L",
+          "forearm": "forearm.L",
+          "hand": "hand.L",
+          "fingers": [
+            "finger0.L",
+            "finger1.L",
+            "finger2.L",
+            "finger3.L",
+            "thumb.L"
+          ]
+        },
+        "mesh": "Contracurva_CC0_anatomical_grip_hand_L",
+        "neutralWrist": [
+          -0.12225260585546494,
+          0.3208445608615875,
+          0.24827943742275238
+        ],
+        "neutralHandQuaternion": [
+          0.22965972125530243,
+          -0.6424975395202637,
+          -0.630869448184967,
+          0.3694010078907013
+        ],
+        "neutralElbow": [
+          -0.21199999749660492,
+          0.1599999964237213,
+          0.14399999380111694
+        ],
+        "lengthUpper": 0.18535909056663513,
+        "lengthForearm": 0.21165958046913147,
+        "releaseOffset": [
+          -0.1328693926334381,
+          0.08516885340213776,
+          -0.08655628561973572
+        ],
+        "openingMorphs": [
+          "GripOpen125",
+          "GripOpen250",
+          "GripOpen375",
+          "GripOpen500",
+          "GripOpen625",
+          "GripOpen750",
+          "GripOpen875",
+          "GripOpen1000"
+        ]
+      },
+      "R": {
+        "bones": {
+          "upperArm": "upper_arm.R",
+          "forearm": "forearm.R",
+          "hand": "hand.R",
+          "fingers": [
+            "finger0.R",
+            "finger1.R",
+            "finger2.R",
+            "finger3.R",
+            "thumb.R"
+          ]
+        },
+        "mesh": "Contracurva_CC0_anatomical_grip_hand_R",
+        "neutralWrist": [
+          0.12225260585546494,
+          0.3208445608615875,
+          0.24827943742275238
+        ],
+        "neutralHandQuaternion": [
+          0.22965915501117706,
+          0.6424970626831055,
+          0.6308702826499939,
+          0.3694007694721222
+        ],
+        "neutralElbow": [
+          0.21199999749660492,
+          0.1599999964237213,
+          0.14399999380111694
+        ],
+        "lengthUpper": 0.18535909056663513,
+        "lengthForearm": 0.21165958046913147,
+        "releaseOffset": [
+          0,
+          0,
+          0
+        ],
+        "openingMorphs": [
+          "GripOpen125",
+          "GripOpen250",
+          "GripOpen375",
+          "GripOpen500",
+          "GripOpen625",
+          "GripOpen750",
+          "GripOpen875",
+          "GripOpen1000"
+        ]
+      }
+    },
+    "gesture": {
+      "openEnd": 0.18,
+      "liftEnd": 0.42,
+      "returnStart": 0.62,
+      "closeStart": 0.84,
+      "maximumReleaseSpeed": 4.5,
+      "openingPathPortion": 0.2
+    }
+  },
+  "pbrContract": {
+    "imageCount": 11,
+    "materialCount": 21,
+    "compressedImageCount": 8,
+    "pngImageCount": 3,
+    "materialMaps": [
+      {
+        "name": "Contracurva_graphite_ribbed_wrist_cuff",
+        "maps": {
+          "roughnessMap": {
+            "name": "cloth-twill-rough",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          },
+          "metalnessMap": {
+            "name": "cloth-twill-rough",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          },
+          "normalMap": {
+            "name": "cloth-twill-normal",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          }
+        }
+      },
+      {
+        "name": "Contracurva_authored_tongue_mucosa.001",
+        "maps": {}
+      },
+      {
+        "name": "Contracurva_natural_warm_enamel.001",
+        "maps": {}
+      },
+      {
+        "name": "Contracurva_authored_gum_mucosa.001",
+        "maps": {}
+      },
+      {
+        "name": "Contracurva_authored_brown_brows_lashes",
+        "maps": {}
+      },
+      {
+        "name": "MI_Eyes",
+        "maps": {
+          "map": {
+            "name": "cc0_T_Eye_Brown",
+            "width": 256,
+            "height": 256,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          },
+          "normalMap": {
+            "name": "cc0_T_Eye_Normal",
+            "width": 256,
+            "height": 256,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          }
+        }
+      },
+      {
+        "name": "Contracurva_CC0_anatomical_hand_skin",
+        "maps": {
+          "map": {
+            "name": "donor_T_Superhero_Female_Dark_BaseColor",
+            "width": 2048,
+            "height": 2048,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          },
+          "roughnessMap": {
+            "name": "donor_T_Superhero_Female_Roughness",
+            "width": 2048,
+            "height": 2048,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          },
+          "metalnessMap": {
+            "name": "donor_T_Superhero_Female_Roughness",
+            "width": 2048,
+            "height": 2048,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          },
+          "normalMap": {
+            "name": "donor_T_Superhero_Female_Normal",
+            "width": 2048,
+            "height": 2048,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          }
+        }
+      },
+      {
+        "name": "Contracurva_CC0_adapted_anatomical_skin",
+        "maps": {
+          "map": {
+            "name": "authored_c15_short_hair_on_head_albedo",
+            "width": 2040,
+            "height": 1355,
+            "mime": "image/png",
+            "compressed": false,
+            "channel": 0
+          },
+          "roughnessMap": {
+            "name": "authored_c15_short_hair_on_head_roughness",
+            "width": 2040,
+            "height": 1355,
+            "mime": "image/png",
+            "compressed": false,
+            "channel": 0
+          },
+          "metalnessMap": {
+            "name": "authored_c15_short_hair_on_head_roughness",
+            "width": 2040,
+            "height": 1355,
+            "mime": "image/png",
+            "compressed": false,
+            "channel": 0
+          },
+          "normalMap": {
+            "name": "head_crop_cc0_T_Superhero_Female_Normal",
+            "width": 2040,
+            "height": 1355,
+            "mime": "image/png",
+            "compressed": false,
+            "channel": 0
+          }
+        }
+      },
+      {
+        "name": "Contracurva_authored_inner_labial_profile_retopo",
+        "maps": {}
+      },
+      {
+        "name": "Contracurva_authored_oral_mucosa_retopo",
+        "maps": {}
+      },
+      {
+        "name": "Contracurva_authored_recessed_palate.001",
+        "maps": {}
+      },
+      {
+        "name": "denim_indigo",
+        "maps": {
+          "roughnessMap": {
+            "name": "cloth-twill-rough",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          },
+          "metalnessMap": {
+            "name": "cloth-twill-rough",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          },
+          "normalMap": {
+            "name": "cloth-twill-normal",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          }
+        }
+      },
+      {
+        "name": "zipper_burnished_copper",
+        "maps": {}
+      },
+      {
+        "name": "hood_bone_cotton",
+        "maps": {
+          "roughnessMap": {
+            "name": "cloth-twill-rough",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          },
+          "metalnessMap": {
+            "name": "cloth-twill-rough",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          },
+          "normalMap": {
+            "name": "cloth-twill-normal",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          }
+        }
+      },
+      {
+        "name": "stitch_coolwhite",
+        "maps": {}
+      },
+      {
+        "name": "hood_shadow_cotton",
+        "maps": {}
+      },
+      {
+        "name": "Contracurva_own_uneven_copper_black_locks__export61_Contracurva_hair6_asymmetric_lock_00",
+        "maps": {
+          "normalMap": {
+            "name": "authored_hair_flow_normal",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 1
+          }
+        }
+      },
+      {
+        "name": "urban_washed_graphite_twill",
+        "maps": {
+          "roughnessMap": {
+            "name": "cloth-twill-rough",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          },
+          "metalnessMap": {
+            "name": "cloth-twill-rough",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          },
+          "normalMap": {
+            "name": "cloth-twill-normal",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          }
+        }
+      },
+      {
+        "name": "rubber_warm_white",
+        "maps": {}
+      },
+      {
+        "name": "sneaker_navy",
+        "maps": {}
+      },
+      {
+        "name": "Contracurva_fitted_hood_graphite_outer",
+        "maps": {
+          "roughnessMap": {
+            "name": "cloth-twill-rough",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          },
+          "metalnessMap": {
+            "name": "cloth-twill-rough",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          },
+          "normalMap": {
+            "name": "cloth-twill-normal",
+            "width": 512,
+            "height": 512,
+            "mime": "image/ktx2",
+            "compressed": true,
+            "channel": 0
+          }
+        }
+      }
+    ],
+    "normals": "UASTC level3, Zstandard10 except NPOT head normal, preserved as PNG",
+    "otherImages": "ETC1S quality255, no RDO except two NPOT head maps, preserved as PNG",
+    "dimensions": "All eleven source image dimensions preserved. Three 2040x1355 head images remain PNG byte-exact; no resampling.",
+    "geometryAnimationProof": "Numerical geometry, weights, UV, node transforms and animation values exact across packing. KTX image compression is lossy."
+  },
+  "limits": [
+    "Carrocería C15 anterior conservada, pendiente de reconstrucción.",
+    "Conservación de volumen DQ en Blender, LBS en glTF. La apariencia requiere comprobación independiente en el juego.",
+    "No acredita todo el interior de cabina libre de intersecciones ni calidad artística aprobada.",
+    "Optimización geométrica y móvil real pendientes."
+  ]
+}

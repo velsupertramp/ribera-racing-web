@@ -1,0 +1,29 @@
+{
+  "id": "policia",
+  "name": "Policía Local de Aranda «La Zona Azul» · interpretación del BMW X1",
+  "len": 4.755,
+  "wid": 1.859,
+  "hgt": 1.973,
+  "wheelbase": 2.69,
+  "track": 1.59,
+  "wheelR": 0.405,
+  "wheelR_rear": 0.405,
+  "axles_y": [
+    -1.39,
+    1.3
+  ],
+  "parts": [
+    "body",
+    "wheel_fl",
+    "wheel_fr",
+    "wheel_rl",
+    "wheel_rr",
+    "lightbar"
+  ],
+  "notes": "Revisión local81 parcial. Portón con hueco real de matrícula y ópticas traseras de cubierta transparente, reflector y guías luminosas; frenada nativa comprobada. Mantiene pilares y luna R3, sirenas, librea, conductor, ruedas y envolvente mecánica. 194116 triángulos. Garaje y carrera Ribera con seis llegadas sin rescates. Paragolpes, piloto, ruedas y LOD móvil siguen abiertos; acabado exacto de la unidad local sin identificar; sin aprobación artística completa.",
+  "wid_mirrors": 2.154,
+  "toy": 1.08,
+  "cartoon": 6,
+  "susp_comp": 0.035,
+  "legacyNotes": "BMW X1 (U11) de la Policía Local de Aranda (presentados el 9/4/2026) sin marcas (calandra de dos riñones y faros en cuña del modelo, sin emblema de la marca), con el emblema del cuerpo y el escudo de Aranda en el capó y el portón: blanco con techo azul, damero azul y amarillo fluorescente en la aleta que baja en doble banda por la puerta, franja roja y amarilla al pie de las puertas, POLICÍA / LOCAL, 112 y 092. lightbar (origen en la base, sobre el techo): lentes beacon_blue y panel de mensajes SÍGAME (led_red) encima; leds azules de la defensa en beacon_blue. len incluye la defensa delantera. tris=48254"
+}

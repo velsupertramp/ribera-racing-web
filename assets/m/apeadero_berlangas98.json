@@ -1,0 +1,20 @@
+{
+  "asset": "apeadero_berlangas98",
+  "source": "Existing own editable side building; municipal-reference open arcades. Road canopy removed by Adrian on 2026-10-05.",
+  "noPoseOrPhysicsChanges": true,
+  "index": 1713,
+  "nativeGPUApproved": false,
+  "roadCanopyRemoved": true,
+  "localBounds": {
+    "min": [
+      -5.699999809265137,
+      -0.23999999463558197,
+      -17.260000228881836
+    ],
+    "max": [
+      7.699999809265137,
+      7.800000190734863,
+      -8.020000457763672
+    ]
+  }
+}

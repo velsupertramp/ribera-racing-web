@@ -1,0 +1,20 @@
+{
+"note": "Formas de colisi\u00f3n en coordenadas LOCALES del modelo (x, z de glTF; la cancha queda hacia +z local delante del frontis). rotY en radianes (three.js).",
+"boxes": [
+[
+0.0,
+-15.3,
+5.6,
+1.1,
+0.0
+],
+[
+-5.3,
+0.0,
+0.3,
+15.3,
+0.0
+]
+],
+"circles": []
+}

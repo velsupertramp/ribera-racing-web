@@ -1,0 +1,26 @@
+{
+  "id": "ebro",
+  "name": "Tractor Ebro de vendimia",
+  "len": 3.935,
+  "wid": 2.073,
+  "hgt": 2.74,
+  "wheelbase": 2.1,
+  "track": 1.44,
+  "wheelR": 0.47,
+  "wheelR_rear": 0.874,
+  "axles_y": [
+    -1.25,
+    0.85
+  ],
+  "parts": [
+    "body",
+    "wheel_fl",
+    "wheel_fr",
+    "wheel_rl",
+    "wheel_rr"
+  ],
+  "notes": "Revisión local81 parcial. Frontal propio EBRO/160 con jaula, calandra abierta, ópticas con reflector/lente, UV y mapas PBR horneados. WebP sin pérdida contrastado por cuatro pares GPU idénticos. 58922 triángulos; cabina78, cuatro ruedas, piloto, placa y metadata mecánica retenidos. Carrera Ribera con seis llegadas sin rescates. Familia histórica basada en referencia limitada, no año/serie exactos; cabina, ruedas, piloto y presupuesto móvil aún pendientes; sin aprobación artística completa.",
+  "toy": 1.12,
+  "cartoon": 6,
+  "susp_comp": 0.035
+}

@@ -1,0 +1,28 @@
+{
+ "id": "proteccion_civil",
+ "name": "Protección Civil de Aranda de Duero «El Por Si Acaso» · pick-up doble cabina (tipo Mitsubishi L200)",
+ "len": 5.558,
+ "wid": 1.948,
+ "hgt": 2.1,
+ "wheelbase": 3.0,
+ "track": 1.53,
+ "wheelR": 0.55,
+ "wheelR_rear": 0.55,
+ "axles_y": [
+  -1.73,
+  1.27
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr",
+  "lightbar"
+ ],
+ "notes": "lightbar (origen en la base, sobre el techo): lentes beacon_blue en los extremos y beacon_amber en el centro. Librea de la agrupación de Aranda (mitad baja naranja, alta blanca, damero naranja y blanco, emblema del triángulo azul en puertas, capó, techo y portón, PROTECCIÓN CIVIL en azul, escudo de Aranda en la caja). Caja abierta con cajón de aluminio, dos maletas naranjas y tres conos. Capó naranja con el emblema y PROTECCIÓN CIVIL legible desde delante. len incluye la defensa cromada. tris=22952",
+ "wid_mirrors": 2.172,
+ "toy": 1.392,
+ "cartoon": 6,
+ "susp_comp": 0.04
+}

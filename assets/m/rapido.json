@@ -1,0 +1,38 @@
+{
+  "id": "rapido",
+  "name": "Ford Mustang negro · Magnific Tripo P3eWkq542C",
+  "len": 4.762,
+  "wid": 2.123025516675101,
+  "wid_mirrors": 2.123025516675101,
+  "hgt": 1.4714645772229344,
+  "wheelbase": 2.6685940555595717,
+  "track": 1.669377382711164,
+  "wheelR": 0.37117299573265333,
+  "parts": [
+    "body",
+    "wheel_rl",
+    "wheel_fr",
+    "wheel_rr",
+    "wheel_fl"
+  ],
+  "tris": 24890,
+  "notes": "Adaptación técnica de recurso IA autorizado: componentes originales, ventanas/luces/placas segmentadas. Sin modelado propio de superficies. No es el antiguo SN95. Interior funcional del vehículo instalado conservado con ajuste afín de encaje; 654tri. Carrocería y ruedas externas provienen de Magnific. Interior funcional del vehículo instalado conservado con ajuste afín de encaje; 654tri. Carrocería y ruedas externas provienen de Magnific. Interior funcional del vehículo instalado conservado con ajuste afín de encaje; 654tri. Carrocería y ruedas externas provienen de Magnific.",
+  "susp_comp": 0.04,
+  "toy": 1,
+  "cartoon": 0,
+  "wheelR_rear": 0.3650785209172399,
+  "axles_y": [
+    -1.4292595342006034,
+    1.2393345213589684
+  ],
+  "bbox_min": [
+    -1.0607103733776735,
+    -2.380842798936142,
+    0
+  ],
+  "bbox_max": [
+    1.0623151432974274,
+    2.381157201063858,
+    1.4714645772229344
+  ]
+}

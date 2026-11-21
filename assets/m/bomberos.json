@@ -1,0 +1,30 @@
+{
+ "id": "bomberos",
+ "name": "Bomberos de Aranda de Duero · autobomba urbana A-9 (tipo Mercedes-Benz Atego)",
+ "len": 8.275,
+ "wid": 2.64,
+ "hgt": 3.357,
+ "wheelbase": 4.2,
+ "track": 2.04,
+ "wheelR": 0.7,
+ "wheelR_rear": 0.7,
+ "axles_y": [
+  -2.65,
+  1.55
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr",
+  "lightbar",
+  "ladder"
+ ],
+ "notes": "Ruedas traseras gemelas en un solo objeto por lado (wheel_rl/wheel_rr, vía trasera 1.80). lightbar de cabina (beacon_blue, origen en la base); los rotativos traseros van en body con beacon_blue. ladder: escalera de aluminio de dos tramos, origen en su extremo trasero (base). Techo de cabina: BOMBEROS y A-9 legibles desde la cámara de juego. Hueco trasero abierto con dos devanaderas y panel de bomba. tris=25674",
+ "wid_mirrors": 2.999,
+ "track_rear": 1.8,
+ "toy": 1.296,
+ "cartoon": 6,
+ "susp_comp": 0.06
+}

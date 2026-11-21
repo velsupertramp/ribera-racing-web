@@ -1,0 +1,29 @@
+{
+ "id": "pegaso",
+ "name": "El Desnatado · Leche PascaL",
+ "len": 9.205,
+ "wid": 2.795,
+ "hgt": 3.61,
+ "wheelbase": 6.7,
+ "track": 1.96,
+ "wheelR": 0.7,
+ "wheelR_rear": 0.7,
+ "axles_y": [
+  -3.7,
+  2.35,
+  3.65
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr",
+  "wheel_rl2",
+  "wheel_rr2"
+ ],
+ "notes": "Camión rígido 6x2 de cabina adelantada: eje delantero + tándem trasero con ruedas gemelas (cada pareja en un objeto, origen centrado x=±0.850). wheelbase = eje delantero al centro del tándem. Caja 2.5 m de ancho; wid incluye retrovisores.",
+ "toy": 1.296,
+ "cartoon": 6,
+ "susp_comp": 0.06
+}

@@ -1,0 +1,119 @@
+{
+ "note": "Colisiones en coordenadas locales del juego (x = este, z = sur; origen en el centro de la base; frente a +z). boxes: [cx, cz, halfx, halfz, rotY]; circles: [cx, cz, r].",
+ "objects": {
+  "bodega_door": {
+   "boxes": [
+    [
+     0.0,
+     -3.5,
+     5.8,
+     3.5,
+     0.0
+    ],
+    [
+     4.0,
+     0.95,
+     1.8,
+     0.95,
+     0.0
+    ],
+    [
+     -4.0,
+     0.95,
+     1.8,
+     0.95,
+     0.0
+    ]
+   ],
+   "circles": [],
+   "note": "Origen = centro del umbral de la portada. El cerro ocupa x -5,8..5,8 y z -7,0..0 (detrás); las aletas y sus taludes llegan a z = +1,9; la trinchera de entrada (|x| < 2,65, z 0..1,9) queda libre."
+  },
+  "zarcera_01": {
+   "boxes": [],
+   "circles": [
+    [
+     0.0,
+     0.0,
+     0.6
+    ]
+   ]
+  },
+  "zarcera_02": {
+   "boxes": [],
+   "circles": [
+    [
+     0.0,
+     0.0,
+     0.6
+    ]
+   ]
+  },
+  "zarcera_03": {
+   "boxes": [
+    [
+     0.0,
+     0.0,
+     0.62,
+     0.45,
+     0.0
+    ]
+   ],
+   "circles": []
+  },
+  "lagar": {
+   "boxes": [
+    [
+     0.0,
+     0.0,
+     3.1,
+     2.6,
+     0.0
+    ],
+    [
+     4.4,
+     -0.3,
+     0.2,
+     0.45,
+     0.0
+    ]
+   ],
+   "circles": [
+    [
+     5.35,
+     -0.3,
+     0.65
+    ]
+   ]
+  }
+ },
+ "info": {
+  "bodega_door": {
+   "footprint": [
+    11.6,
+    8.9
+   ],
+   "height": 3.9
+  },
+  "zarcera_01": {
+   "height": 1.45
+  },
+  "zarcera_02": {
+   "height": 1.98
+  },
+  "zarcera_03": {
+   "height": 2.42
+  },
+  "lagar": {
+   "width": 6.2,
+   "depth": 5.2,
+   "height": 4.7,
+   "door_side": "+z",
+   "bbox": [
+    -3.22,
+    6.05,
+    -3.0,
+    3.0
+   ]
+  }
+ }
+}

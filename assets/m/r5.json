@@ -1,0 +1,26 @@
+{
+ "id": "r5",
+ "name": "El Nervios",
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr"
+ ],
+ "wheelbase": 2.42,
+ "track": 1.29,
+ "wheelR": 0.33,
+ "wheelR_rear": 0.33,
+ "axles_y": [
+  -1.14,
+  1.28
+ ],
+ "notes": "Librea de la Arandina CF (blanquiazul, escudo del club), baca con el bombo y la bandera (altura con carga 2.11 m). Miniatura: neumáticos con rodadura de radio base 0.30 m, factor final 1.10, retrovisores redondeados en el pie del montante A (no cuentan en wid). tris=57484",
+ "len": 3.521,
+ "wid": 1.588,
+ "hgt": 2.144,
+ "toy": 1.1,
+ "cartoon": 6,
+ "susp_comp": 0.035
+}

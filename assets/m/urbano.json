@@ -1,0 +1,26 @@
+{
+ "id": "urbano",
+ "name": "Urbano de Aranda (microbús)",
+ "len": 7.405,
+ "wid": 2.599,
+ "hgt": 3.094,
+ "wheelbase": 3.9,
+ "track": 1.72,
+ "wheelR": 0.504,
+ "wheelR_rear": 0.504,
+ "axles_y": [
+  -2.7,
+  1.2
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr"
+ ],
+ "notes": "Microbús urbano sobre chasis de furgón grande. Ruedas traseras gemelas en el mismo objeto (origen centrado, x=±0.785). Carrocería 7.3 x 2.2 m; wid=2.6 incluye los retrovisores naranjas.",
+ "toy": 1.344,
+ "cartoon": 6,
+ "susp_comp": 0.05
+}

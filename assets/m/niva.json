@@ -1,0 +1,38 @@
+{
+ "id": "niva",
+ "name": "El Siberiano",
+ "len": 3.828,
+ "wid": 1.751,
+ "wid_mirrors": 2.003,
+ "hgt": 2.591,
+ "wheelbase": 2.2,
+ "track": 1.43,
+ "wheelR": 0.534,
+ "wheelR_rear": 0.534,
+ "axles_y": [
+  -1.13,
+  1.07
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr"
+ ],
+ "tris": 24480,
+ "bbox_min": [
+  -1.0,
+  -1.963,
+  0.0
+ ],
+ "bbox_max": [
+  1.002,
+  1.865,
+  2.591
+ ],
+ "notes": "Beige, 3 puertas: carrocería cuadrada, techo plano con canaletas, mucha superficie acristalada, rejilla negra con faros redondos, defensa tubular negra con dos faros auxiliares, molduras de paso de rueda y franja lateral negras, llantas de acero.",
+ "toy": 1.464,
+ "cartoon": 6,
+ "susp_comp": 0.045
+}

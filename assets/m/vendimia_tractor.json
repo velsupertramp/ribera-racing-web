@@ -1,0 +1,75 @@
+{
+ "id": "vendimia_tractor",
+ "name": "Tractor verde con remolque de vendimia",
+ "len": 10.52,
+ "wid": 2.91,
+ "hgt": 3.02,
+ "wheelbase": 2.5,
+ "track": 1.6,
+ "track_rear": 1.76,
+ "wheelR": 0.55,
+ "wheelR_rear": 0.8,
+ "axles_y": [
+  -1.25,
+  1.25,
+  5.05,
+  6.05
+ ],
+ "trailer": {
+  "hitch": [
+   0.0,
+   2.02,
+   0.56
+  ],
+  "wheelR": 0.45,
+  "track": 1.76,
+  "axles_y": [
+   5.05,
+   6.05
+  ],
+  "box": {
+   "y0": 3.1,
+   "y1": 7.7,
+   "width": 2.2,
+   "rim_z": 1.86
+  }
+ },
+ "parts": [
+  "vendimia_tractor",
+  "t_body",
+  "t_wheel_fl",
+  "t_wheel_fr",
+  "t_wheel_rl",
+  "t_wheel_rr",
+  "t_trailer",
+  "t_wheel_t1l",
+  "t_wheel_t1r",
+  "t_wheel_t2l",
+  "t_wheel_t2r",
+  "t_picker_1",
+  "t_picker_2",
+  "t_crate"
+ ],
+ "tris": 6950,
+ "collision": {
+  "boxes": [
+   [
+    0.0,
+    0.1,
+    1.15,
+    2.75,
+    0.0
+   ],
+   [
+    0.0,
+    -5.4,
+    1.12,
+    2.35,
+    0.0
+   ]
+  ],
+  "circles": [],
+  "note": "coordenadas de juego (z = -y Blender); la segunda caja es el remolque recto: si se articula, girarla con t_trailer alrededor del enganche (0, -2.02)"
+ },
+ "notes": "Origen en el centro de la batalla del tractor. Ruedas t_wheel_* con origen en el buje (giro en X). t_trailer: pivote en el enganche (Blender (0, 2.02, 0.56)); sus ruedas y los dos vendimiadores (t_picker_1/2, mallas fijas) y la caja (t_crate) son hijos del remolque. Material beacon_amber = rotativo ámbar del techo (emisivo). Sin logotipos de marca."
+}

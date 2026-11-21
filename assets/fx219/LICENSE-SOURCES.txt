@@ -1,0 +1,19 @@
+Recursos visuales219 · descargados y consultados07/10/2026
+
+Todos los recursos de esta carpeta se distribuyen bajo CC0 1.0.
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Autor para · Animated Particle Effects #1
+https://opengameart.org/content/animated-particle-effects-1
+Archivo original para_CC0_particlefx-1.zip
+smoke-sequence.png = particlefx_03.png, copia exacta1024×1024.
+fire-sequence.png = particlefx_10.png, copia exacta1024×1024.
+
+Autor Sinestesia · 2D Explosion Animations2
+https://opengameart.org/content/2d-explosion-animations-2-frame-by-frame
+Archivo original free explosion animations2.zip
+blast-orange.png = Free Explosion Animations2/Half Sized/1.png, copia exacta2048×2048.
+
+Son hojas de64fotogramas8×8. No son simulaciones propias ni modelos3D.
+Las coreografías, tiempos, trayectorias, escala y anclajes del juego se implementan en vehicle-signatures219.js.
+Los recursos Kenney usados junto a estas secuencias están en ../fx218, con su licencia original.

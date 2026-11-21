@@ -1,0 +1,38 @@
+{
+  "id": "cirila",
+  "name": "Harinera Arandina · La Barra de Ayer",
+  "len": 4.123000144958496,
+  "wid": 1.5,
+  "wid_mirrors": 1.6859999895095825,
+  "hgt": 2.183821201324463,
+  "wheelbase": 2.535,
+  "track": 1.26,
+  "wheelR": 0.439,
+  "wheelR_rear": 0.439,
+  "axles_y": [
+    -1.305,
+    1.23
+  ],
+  "parts": [
+    "body",
+    "wheel_fl",
+    "wheel_fr",
+    "wheel_rl",
+    "wheel_rr"
+  ],
+  "tris": 175483,
+  "bbox_min": [
+    -0.8429999947547913,
+    -2.0924999713897705,
+    0.0
+  ],
+  "bbox_max": [
+    0.8429999947547913,
+    2.0305001735687256,
+    2.183821201324463
+  ],
+  "notes": "Revisión local 58. Carrocería propia inspirada en Acadiane/Dyane, con capó, cabina, ventanas, pasos de rueda y cajón de carga diferenciados. Logo original de Harinera Arandina, pan y baca conservados. Ruedas propias con pivotes a batalla de 2,535 m. Emblema metálico propio de espiga. Año y acabado exactos sin verificar. Conductor anterior. Mayor coste geométrico; LOD y revisión móvil pendientes. Mejora parcial, sin aprobación artística total.",
+  "susp_comp": 0.035,
+  "source_family": "Acadiane/Dyane",
+  "exact_year_verified": false
+}

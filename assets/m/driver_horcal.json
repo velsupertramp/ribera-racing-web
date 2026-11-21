@@ -1,0 +1,175 @@
+{
+  "headCenter": [
+    0,
+    1.6990000009536743,
+    -0.017400000244379044
+  ],
+  "headRadius": 0.11,
+  "actorScale": 1.6,
+  "wheelCenter": [
+    0,
+    1.4769999980926514,
+    0.24459999799728394
+  ],
+  "wheelAxis": [
+    0,
+    0.4794255495071411,
+    0.8775825500488281
+  ],
+  "wheelSteerAngle": 0.35,
+  "wheelRotationNode": "Garbanzo_wheel_rotor",
+  "blinkPeriod": 4.5,
+  "gripIK": {
+    "version": 1,
+    "sides": {
+      "L": {
+        "bones": {
+          "upperArm": "upperarm_l",
+          "forearm": "lowerarm_l",
+          "hand": "hand_l",
+          "fingers": [
+            "index_01_l",
+            "index_02_l",
+            "index_03_l",
+            "middle_01_l",
+            "middle_02_l",
+            "middle_03_l",
+            "ring_01_l",
+            "ring_02_l",
+            "ring_03_l",
+            "pinky_01_l",
+            "pinky_02_l",
+            "pinky_03_l",
+            "thumb_01_l",
+            "thumb_02_l",
+            "thumb_03_l"
+          ]
+        },
+        "mesh": "Horcal_mano_L",
+        "openingMorphs": [
+          "GripOpen125L",
+          "GripOpen250L",
+          "GripOpen375L",
+          "GripOpen500L",
+          "GripOpen625L",
+          "GripOpen750L",
+          "GripOpen875L",
+          "GripOpen1000L"
+        ],
+        "neutralWrist": [
+          0.16121474982324524,
+          1.5324251808523313,
+          0.18925199904557222
+        ],
+        "neutralHandQuaternion": [
+          0.674052924235222,
+          -0.4925307745343844,
+          -0.5277206202936873,
+          -0.15677062797949087
+        ],
+        "neutralElbow": [
+          0.169493227802201,
+          1.418948956264661,
+          0.06315535568020544
+        ],
+        "lengthUpper": 0.17516513823946464,
+        "lengthForearm": 0.16984036685173495,
+        "releaseOffset": [
+          -0.01,
+          0.05,
+          -0.065
+        ]
+      },
+      "R": {
+        "bones": {
+          "upperArm": "upperarm_r",
+          "forearm": "lowerarm_r",
+          "hand": "hand_r",
+          "fingers": [
+            "index_01_r",
+            "index_02_r",
+            "index_03_r",
+            "middle_01_r",
+            "middle_02_r",
+            "middle_03_r",
+            "ring_01_r",
+            "ring_02_r",
+            "ring_03_r",
+            "pinky_01_r",
+            "pinky_02_r",
+            "pinky_03_r",
+            "thumb_01_r",
+            "thumb_02_r",
+            "thumb_03_r"
+          ]
+        },
+        "mesh": "Horcal_mano_R",
+        "openingMorphs": [
+          "GripOpen125R",
+          "GripOpen250R",
+          "GripOpen375R",
+          "GripOpen500R",
+          "GripOpen625R",
+          "GripOpen750R",
+          "GripOpen875R",
+          "GripOpen1000R"
+        ],
+        "neutralWrist": [
+          -0.1612146984979657,
+          1.5324248901256246,
+          0.18925188505226304
+        ],
+        "neutralHandQuaternion": [
+          0.6740524246717012,
+          0.4925302123037575,
+          0.5277215033118472,
+          -0.15677152678256936
+        ],
+        "neutralElbow": [
+          -0.16949323422020987,
+          1.4189487339717852,
+          0.06315515561977172
+        ],
+        "lengthUpper": 0.17516493100945735,
+        "lengthForearm": 0.1698403878431921,
+        "releaseOffset": [
+          -0.01,
+          0.05,
+          -0.065
+        ]
+      }
+    },
+    "gesture": {
+      "openEnd": 0.15,
+      "liftEnd": 0.3,
+      "returnStart": 0.65,
+      "closeStart": 0.85,
+      "openingPathPortion": 0.2,
+      "maximumReleaseSpeed": 4.5
+    }
+  },
+  "character": "El Horcal, vendedor ficticio de la Morcilloneta",
+  "characterId": "horcal93",
+  "license": "Anatomía base Quaternius Universal Base Characters Standard FREE CC0 1.0. Adaptación propia de miniatura/rig familia/clip y escultura propia Horcal, delantal/cabello/bigote/marca. Sin reutilización de Guardia Civil.",
+  "nativeMount93": {
+    "headNative": [
+      0.4,
+      1.8052,
+      1.0008
+    ],
+    "wheelNative": [
+      0.4,
+      1.45,
+      1.42
+    ],
+    "mode": "explicit-head-anchor",
+    "removeStaticWheel": true,
+    "status": "PROVISIONAL_CPU_FIT_PENDING_GPU"
+  },
+  "limits": [
+    "Studio portrait and CPU structure do not approve native artistic quality.",
+    "Van static steering wheel must be removed for own actor/accessory; unchanged sealed handoff92 still has it.",
+    "Common grip clip/path retained, dense swept hand/contact and cab/seat validation pending.",
+    "No phone GPU performance measured."
+  ]
+}

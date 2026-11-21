@@ -1,0 +1,44 @@
+{
+  "ribera": {
+    "stamp": "9fe6b110896c39fe0165fe6009385cd2ee86b6ed70c74fba5ed0e79624e78c7c",
+    "bytes": 4673970,
+    "rawBytes": 19410080,
+    "sha256": "772b929adcd819f9a794716f2a5386412f75664b97346a405fe06de0a19622df",
+    "m": {
+      "bytes": 1757304,
+      "h": "826659e6efa2cadb"
+    }
+  },
+  "bodegas": {
+    "stamp": "9fe6b110896c39fe0165fe6009385cd2ee86b6ed70c74fba5ed0e79624e78c7c",
+    "bytes": 4402012,
+    "rawBytes": 17275928,
+    "sha256": "1d0941fbae7ba02e240f7bcb881bfe6ebfb768c1b27361ff5d5eca1d39a734b6",
+    "m": {
+      "bytes": 1468362,
+      "h": "e0fb07a2f1042dbd"
+    }
+  },
+  "ciudad": {
+    "stamp": "9fe6b110896c39fe0165fe6009385cd2ee86b6ed70c74fba5ed0e79624e78c7c",
+    "bytes": 2570032,
+    "rawBytes": 13963864,
+    "sha256": "ad98dfd30fb140f4c2f646f68c281459b03533b8d0d6536b61b72d0d25d6b309",
+    "m": {
+      "bytes": 907223,
+      "h": "f22e824b31a74838"
+    }
+  },
+  "duero": {
+    "stamp": "9fe6b110896c39fe0165fe6009385cd2ee86b6ed70c74fba5ed0e79624e78c7c",
+    "bytes": 767089,
+    "rawBytes": 2119752,
+    "sha256": "16b013bf1a3a02f2f7318a6ba231bad13ca7f793714530c859d7ecee2dbc4759"
+  },
+  "aranda1503": {
+    "stamp": "32b9b34a92e007265fdc7696430d490b0b965e10ffae1f1bdc8db078f3a8922e",
+    "bytes": 3255605,
+    "rawBytes": 13963856,
+    "sha256": "833a15f3cf3a3d0062c845b44a11dc5e6b0cd39471e8228cbff4b05f0dd7d8b4"
+  }
+}

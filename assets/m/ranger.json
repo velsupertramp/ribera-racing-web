@@ -1,0 +1,38 @@
+{
+ "id": "ranger",
+ "name": "Ranger doble cabina blanco (vendimia)",
+ "len": 5.37,
+ "wid": 2.041,
+ "wid_mirrors": 2.442,
+ "hgt": 2.088,
+ "wheelbase": 3.27,
+ "track": 1.62,
+ "wheelR": 0.573,
+ "wheelR_rear": 0.573,
+ "axles_y": [
+  -1.735,
+  1.535
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr"
+ ],
+ "tris": 26302,
+ "bbox_min": [
+  -1.219,
+  -2.698,
+  0.0
+ ],
+ "bbox_max": [
+  1.223,
+  2.672,
+  2.088
+ ],
+ "notes": "Ford Ranger doble cabina actual (P703) en versión de trabajo XL/XLT blanca, con Ribera del Duero original: calandra negra con la barra que entra en los faros con firma en C, paragolpes blanco con toma inferior y antinieblas, aletines negros finos, branquia en la aleta, manetas y retrovisores negros, tapa del depósito tras la cabina, pilotos verticales que doblan la esquina, paragolpes trasero negro con peldaños y diez cajas de vendimia con uva tinta.",
+ "toy": 1.416,
+ "cartoon": 6,
+ "susp_comp": 0.035
+}

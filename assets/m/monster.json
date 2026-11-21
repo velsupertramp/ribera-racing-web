@@ -1,0 +1,29 @@
+{
+ "id": "monster",
+ "name": "Monster ribereño",
+ "len": 4.635,
+ "wid": 2.634,
+ "hgt": 3.08,
+ "wheelbase": 2.9,
+ "track": 1.94,
+ "wheelR": 0.85,
+ "wheelR_rear": 0.85,
+ "axles_y": [
+  -1.45,
+  1.45
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr"
+ ],
+ "notes": "Monster truck arcade original: pickup cabina corta granate con franjas doradas, ruedas r 0,85 con tacos en V, 8 amortiguadores, arco con 4 focos, RIBERA en el portón.",
+ "track_rear": 1.94,
+ "wid_mirrors": 2.634,
+ "tris": 24670,
+ "toy": 1.0,
+ "cartoon": 6,
+ "susp_comp": 0.035
+}

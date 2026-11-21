@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "status": "runtime_pilot_visual_review_pending",
+  "asset_sha256": "faeed2a6fd0f760f54f3eac8e00ddfeb2f1ed06b7f84cb05d6782b1e3a879c68",
+  "bytes": 4464196,
+  "objects": {
+    "salix_0": {
+      "latin": "Salix alba",
+      "near": {
+        "triangles": 22590,
+        "sprays": 1545,
+        "bounds_blender": [
+          [
+            -4.902436256408691,
+            -6.0663347244262695,
+            -0.36609265208244324
+          ],
+          [
+            6.163382530212402,
+            6.603357315063477,
+            11.037604331970215
+          ]
+        ]
+      },
+      "medium": {
+        "triangles": 5698,
+        "sprays": 515,
+        "bounds_blender": [
+          [
+            -5.327203750610352,
+            -6.4383134841918945,
+            -0.3690353035926819
+          ],
+          [
+            6.625709533691406,
+            7.070008277893066,
+            11.268177032470703
+          ]
+        ]
+      }
+    },
+    "salix_1": {
+      "latin": "Salix alba",
+      "near": {
+        "triangles": 22590,
+        "sprays": 1545,
+        "bounds_blender": [
+          [
+            -5.727096080780029,
+            -5.30109167098999,
+            -0.37392011284828186
+          ],
+          [
+            4.188732147216797,
+            5.654770851135254,
+            9.536330223083496
+          ]
+        ]
+      },
+      "medium": {
+        "triangles": 5698,
+        "sprays": 515,
+        "bounds_blender": [
+          [
+            -6.129602432250977,
+            -5.701250076293945,
+            -0.37785208225250244
+          ],
+          [
+            4.478653430938721,
+            5.972243785858154,
+            9.884383201599121
+          ]
+        ]
+      }
+    }
+  },
+  "materials": "color_normal_roughness_alphaMASK",
+  "master": "assets_src/nature/duero_soto66/models/riparian66.blend",
+  "textureRepair": "normal_roughness_contour_and_transparent_color_padding_preserve_alpha",
+  "quantizePositionBits": 16
+}

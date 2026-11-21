@@ -1,0 +1,26 @@
+{
+  "boxes": [
+    [
+      0,
+      0,
+      7.5,
+      17.5,
+      0
+    ],
+    [
+      12.675,
+      6,
+      5.675,
+      5.15,
+      0
+    ]
+  ],
+  "circles": [
+    [
+      -9.5,
+      14,
+      1.42
+    ]
+  ],
+  "notes": "Altura física y ocupación se fijan en placeAzucarera59; patio transitable."
+}

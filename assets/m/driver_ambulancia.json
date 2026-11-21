@@ -1,0 +1,178 @@
+{
+  "mountOverride": {
+    "type": "private_required_clearance",
+    "rearwardMeters": 0.101,
+    "loweredMeters": 0.05,
+    "originalWheelCenter": [
+      0,
+      1.409999966621399,
+      0.375
+    ],
+    "reason": "Private game interior mount. Legacy rim intersects dashboard; rearward101mm was retained. R15 is rejected because the hands intersect the face at full steering. Prospective rigid grip probe first clears at44mm downward; R16 lowers wheel50mm and reauthors actual arms/fingers for independent whole-mount tests. Requires paired private seat/backrest/column/pedal body. Original78 exterior, wheels and gameplay physics/steer range retained; no Renault factory dimension claim.",
+    "legacyStudy": "study80r12",
+    "seatOffsetNative": [
+      0,
+      0.3,
+      -0.04
+    ],
+    "requiresPrivateSeatArgumentOverride": true,
+    "legPose": {
+      "thighDirectionBlender": [
+        0,
+        -1,
+        0
+      ],
+      "ankleNativeHeightMeters": 1.216,
+      "reason": "Horizontal adult thighs and ~128 degree knee flexion. Seat/pelvis/own wheel raised300mm and rearward40mm as private correction of game interior, no factory dimension claim. Actual foot support and pedals required in paired body variant."
+    }
+  },
+  "headCenter": [
+    0,
+    1.649999976158142,
+    -0.014999999664723873
+  ],
+  "headRadius": 0.135,
+  "actorScale": 1,
+  "wheelCenter": [
+    0,
+    1.3600000143051147,
+    0.27400001883506775
+  ],
+  "wheelAxis": [
+    0,
+    0.4794255495071411,
+    0.8775825500488281
+  ],
+  "wheelSteerAngle": 1.08,
+  "wheelRotationNode": "Guardia80_wheel_rotor",
+  "blinkPeriod": 4.5,
+  "gripIK": {
+    "version": 1,
+    "sides": {
+      "L": {
+        "bones": {
+          "upperArm": "upperarm_l",
+          "forearm": "lowerarm_l",
+          "hand": "hand_l",
+          "fingers": [
+            "index_01_l",
+            "index_02_l",
+            "index_03_l",
+            "middle_01_l",
+            "middle_02_l",
+            "middle_03_l",
+            "ring_01_l",
+            "ring_02_l",
+            "ring_03_l",
+            "pinky_01_l",
+            "pinky_02_l",
+            "pinky_03_l",
+            "thumb_01_l",
+            "thumb_02_l",
+            "thumb_03_l"
+          ]
+        },
+        "mesh": "Guardia80_mano_L",
+        "openingMorphs": [
+          "GripOpen125L",
+          "GripOpen250L",
+          "GripOpen375L",
+          "GripOpen500L",
+          "GripOpen625L",
+          "GripOpen750L",
+          "GripOpen875L",
+          "GripOpen1000L"
+        ],
+        "neutralWrist": [
+          0.2552631562040301,
+          1.4485903354498662,
+          0.18788573420040214
+        ],
+        "neutralHandQuaternion": [
+          0.6788529784677289,
+          -0.4919758639152115,
+          -0.5171604388243127,
+          -0.17223093301736525
+        ],
+        "neutralElbow": [
+          0.27091483889236717,
+          1.2792614331417658,
+          0.011389068747055107
+        ],
+        "lengthUpper": 0.23629322426149862,
+        "lengthForearm": 0.2450884029161586,
+        "releaseOffset": [
+          -0.012,
+          0.025,
+          -0.04
+        ]
+      },
+      "R": {
+        "bones": {
+          "upperArm": "upperarm_r",
+          "forearm": "lowerarm_r",
+          "hand": "hand_r",
+          "fingers": [
+            "index_01_r",
+            "index_02_r",
+            "index_03_r",
+            "middle_01_r",
+            "middle_02_r",
+            "middle_03_r",
+            "ring_01_r",
+            "ring_02_r",
+            "ring_03_r",
+            "pinky_01_r",
+            "pinky_02_r",
+            "pinky_03_r",
+            "thumb_01_r",
+            "thumb_02_r",
+            "thumb_03_r"
+          ]
+        },
+        "mesh": "Guardia80_mano_R",
+        "openingMorphs": [
+          "GripOpen125R",
+          "GripOpen250R",
+          "GripOpen375R",
+          "GripOpen500R",
+          "GripOpen625R",
+          "GripOpen750R",
+          "GripOpen875R",
+          "GripOpen1000R"
+        ],
+        "neutralWrist": [
+          -0.25526306777730023,
+          1.4485902904873236,
+          0.18788545584107802
+        ],
+        "neutralHandQuaternion": [
+          0.6788530520808567,
+          0.4919758811547527,
+          0.5171602852897264,
+          -0.17223087350977326
+        ],
+        "neutralElbow": [
+          -0.2709148384258942,
+          1.2792612516817718,
+          0.011389056047550937
+        ],
+        "lengthUpper": 0.2362933147635865,
+        "lengthForearm": 0.24508831152734473,
+        "releaseOffset": [
+          -0.012,
+          0.025,
+          -0.04
+        ]
+      }
+    },
+    "gesture": {
+      "openEnd": 0.15,
+      "liftEnd": 0.3,
+      "returnStart": 0.65,
+      "closeStart": 0.85,
+      "openingPathPortion": 0.2,
+      "maximumReleaseSpeed": 4.5
+    }
+  }
+}

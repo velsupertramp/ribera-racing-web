@@ -1,0 +1,54 @@
+{
+  "character": "El Nervios, R5 Arandina",
+  "headCenter": [
+    0,
+    0.495,
+    0
+  ],
+  "headRadius": 0.1207769438624382,
+  "actions": [
+    "idle",
+    "steer_left",
+    "steer_right",
+    "hit",
+    "celebrate"
+  ],
+  "shape_keys": [
+    "Susto",
+    "Celebracion"
+  ],
+  "license": "Original meshes/materials authored for Ribera Racing; no copied logo or external model",
+  "wheelCenter": [
+    0,
+    0.205,
+    0.334
+  ],
+  "wheelCenterBlender": [
+    0,
+    -0.334,
+    0.205
+  ],
+  "wheelRadius": 0.132,
+  "wheelOuterRadius": 0.142,
+  "wheelAxis": [
+    0,
+    0.25881904510252074,
+    0.9659258262890683
+  ],
+  "wheelAxisBlender": [
+    0,
+    -0.9659258262890683,
+    0.25881904510252074
+  ],
+  "wheelTiltDegrees": 15,
+  "wheelSteerAngle": 0.3490658503988659,
+  "visualSteerFactor": 0.3490658503988659,
+  "factorConvention": "Apply visualSteerFactor to normalized steering weight [-1,+1], not raw physics steer. steer_left=-20deg around the reported tilted Three wheelAxis; physics positive steer means left. Actor hands solved for same motion.",
+  "localOrigin": "Centre of rim. Driver-facing normal is opposite wheelAxis; column extends along wheelAxis toward dashboard. Place at wheelCenter in driver coordinate space, then apply same driver scale and translation.",
+  "columnDirection": "Tilted wheelAxis toward dashboard; source tilt -15deg about X; actual cabin must be inspected",
+  "triangles": 31246,
+  "limit": "Candidate two-spoke period-style wheel, not claimed exact Renault model/part.",
+  "modelingRevision": 54,
+  "bones": 29,
+  "notes": "Conductor y cinco clips propios. Izquierda física positiva; volante -20 grados sobre eje inclinado. Sin parpadeo todavía. Camiseta azul/blanca propia, no escudo inventado."
+}

@@ -1,0 +1,38 @@
+{
+ "id": "c15",
+ "name": "Citroën C15 Hüeso Limited",
+ "len": 4.104,
+ "wid": 1.645,
+ "wid_mirrors": 1.969,
+ "hgt": 2.219,
+ "wheelbase": 2.55,
+ "track": 1.33,
+ "wheelR": 0.329,
+ "wheelR_rear": 0.329,
+ "axles_y": [
+  -1.28,
+  1.27
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr"
+ ],
+ "tris": 78006,
+ "bbox_min": [
+  -0.985,
+  -2.061,
+  -0.0
+ ],
+ "bbox_max": [
+  0.984,
+  2.043,
+  2.219
+ ],
+ "notes": "Hüeso Limited original de Aranda. Chapa blanca, juntas continuas, ruedas de radio moderado y dos skates completos sujetos a la baca.",
+ "toy": 1.08,
+ "cartoon": 6,
+ "susp_comp": 0.04
+}

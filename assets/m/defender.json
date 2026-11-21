@@ -1,0 +1,38 @@
+{
+ "id": "defender",
+ "name": "El Cabrero",
+ "len": 3.945,
+ "wid": 1.881,
+ "wid_mirrors": 2.242,
+ "hgt": 2.534,
+ "wheelbase": 2.36,
+ "track": 1.49,
+ "wheelR": 0.569,
+ "wheelR_rear": 0.569,
+ "axles_y": [
+  -1.33,
+  1.03
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr"
+ ],
+ "tris": 23454,
+ "bbox_min": [
+  -1.121,
+  -1.965,
+  0.0
+ ],
+ "bbox_max": [
+  1.121,
+  1.98,
+  2.534
+ ],
+ "notes": "Blanco con techo blanco y baca negra de expedición (opcional, ref. 41; sin ella mide 1.97 de alto): paneles planos con aristas vivas, aletines negros en pasos cuadrados, frontal negro con faros redondos, ventanillas alpinas en el canto del techo, rueda de repuesto con llanta blanca en el portón, paragolpes de acero negros, faldillas y llantas de acero blancas con cubiertas de tacos.",
+ "toy": 1.44,
+ "cartoon": 6,
+ "susp_comp": 0.035
+}

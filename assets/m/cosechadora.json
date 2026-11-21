@@ -1,0 +1,27 @@
+{
+ "id": "cosechadora",
+ "name": "Cosechadora ribereña",
+ "len": 8.215,
+ "wid": 3.35,
+ "hgt": 3.89,
+ "wheelbase": 4.4,
+ "track": 2.7,
+ "wheelR": 0.896,
+ "wheelR_rear": 0.56,
+ "axles_y": [
+  -1.45,
+  2.95
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr",
+  "reel"
+ ],
+ "notes": "Ruedas motrices grandes delante (wheel_fl/fr, r=0.80) y directrices pequeñas detrás (wheel_rl/rr, r=0.50): en una cosechadora giran las traseras. reel: molinete con origen en su eje (0, -3.40, 1.48) en coordenadas Blender; gira sobre X (rotación POSITIVA sobre X: los listones bajan por delante y barren hacia la máquina por abajo).",
+ "toy": 1.12,
+ "cartoon": 6,
+ "susp_comp": 0.035
+}

@@ -1,0 +1,28 @@
+{
+ "id": "guardia",
+ "name": "Guardia Civil «La Benemérita» · Land Cruiser de patrulla",
+ "len": 4.594,
+ "wid": 2.17,
+ "hgt": 2.57,
+ "wheelbase": 2.5,
+ "track": 1.68,
+ "wheelR": 0.55,
+ "wheelR_rear": 0.55,
+ "axles_y": [
+  -1.3,
+  1.2
+ ],
+ "parts": [
+  "body",
+  "wheel_fl",
+  "wheel_fr",
+  "wheel_rl",
+  "wheel_rr",
+  "lightbar"
+ ],
+ "notes": "Toyota Land Cruiser 150 de la Guardia Civil (entrega de 2021) sin marcas ni emblema: librea blanca con capó, puertas y portón verdes, guiones blancos bajo las lunas, banda roja de galones en el portón y defensa blanca. lightbar (origen en la base, sobre el techo): lentes beacon_blue y tramo central blanco rotulado. tris=23608",
+ "wid_mirrors": 2.399,
+ "toy": 1.25,
+ "cartoon": 6,
+ "susp_comp": 0.05
+}

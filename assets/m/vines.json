@@ -1,0 +1,119 @@
+{
+ "id": "vines",
+ "name": "Viñedo en espaldera en vendimia",
+ "units": "m",
+ "coords": "glTF/three: +Y arriba, frente del objeto hacia +Z (Blender -Y), izquierda del sujeto hacia +X. Origen = centro de la base.",
+ "layout": "Todos los nodos raíz están en el origen: instanciar por nombre (getObjectByName) sin corregir posición.",
+ "collision_format": "{\"boxes\":[[cx,cz,halfx,halfz,rotY]], \"circles\":[[cx,cz,r]]} en coordenadas locales del objeto (juego)",
+ "objects": {
+  "vine_plant": {
+   "tris": 750,
+   "size": [
+    1.32,
+    1.75,
+    0.6
+   ],
+   "height": 1.63,
+   "bbox_game": {
+    "min": [
+     -0.66,
+     -0.12,
+     -0.29
+    ],
+    "max": [
+     0.66,
+     1.63,
+     0.3
+    ]
+   },
+   "collision": {
+    "boxes": [
+     [
+      0.0,
+      0.0,
+      0.62,
+      0.32,
+      0.0
+     ]
+    ]
+   },
+   "notes": "Cepa en espaldera (tempranillo / tinta del país): cordón bilateral a 0,6 m, seto de 0,72 a 1,47 m, racimos a 0,45-0,65 m. La hilera va a lo largo de X local."
+  },
+  "vine_row_6m": {
+   "tris": 1910,
+   "size": [
+    6.22,
+    2.07,
+    0.61
+   ],
+   "height": 1.77,
+   "bbox_game": {
+    "min": [
+     -3.22,
+     -0.3,
+     -0.3
+    ],
+    "max": [
+     3.0,
+     1.77,
+     0.31
+    ]
+   },
+   "collision": {
+    "boxes": [
+     [
+      0.0,
+      0.0,
+      3.0,
+      0.32,
+      0.0
+     ]
+    ]
+   },
+   "notes": "Tramo de 6 m de espaldera: 5 cepas cada 1,2 m (x=-2.7..2.1), poste intermedio en x=0.3, alambres y cordón hasta los extremos. Encadenar tramos cada 6,0 m en X local (misma rotación); poner vine_post en los extremos de la hilera. Separación típica entre hileras 2,5-3 m.",
+   "chain_step": [
+    6.0,
+    0.0,
+    0.0
+   ],
+   "row_axis": "x"
+  },
+  "vine_post": {
+   "tris": 81,
+   "size": [
+    2.14,
+    2.27,
+    0.54
+   ],
+   "height": 1.96,
+   "bbox_game": {
+    "min": [
+     -1.33,
+     -0.31,
+     -0.27
+    ],
+    "max": [
+     0.81,
+     1.96,
+     0.27
+    ]
+   },
+   "collision": {
+    "circles": [
+     [
+      0.0,
+      0.0,
+      0.1
+     ]
+    ]
+   },
+   "notes": "Poste de cabecera de madera tratada (2 m) inclinado hacia fuera (-X) con tirante y ancla; los alambres salen hacia +X (la hilera)."
+  }
+ },
+ "notes": "Hileras a lo largo de X local (juego: eje x del objeto). vine_row_6m encadenable cada 6 m (textura y bultos periódicos). Material vine: atlas vines_atlas x COLOR_0 (AO); vine_card: puntas de sarmiento con alphaTest 0.5 (caras duplicadas).",
+ "materials": {
+  "vine": "opaco, atlas",
+  "vine_card": "MASK 0.5"
+ },
+ "total_tris": 2741
+}

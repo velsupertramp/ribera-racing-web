@@ -1,0 +1,13 @@
+{
+  "name": "Azucarera de Aranda · nave AI1",
+  "dimensionsMain": [
+    14,
+    34,
+    16.2
+  ],
+  "modelSHA256": "bfec55d22cb3ce4a163bef691ea42e052f400a8d4c57119039606cb20b6f4782",
+  "triangles": 98920,
+  "estimatedTextureRGBA8WithMipsBytes": 43690677,
+  "reference": "Catálogo PGOU municipal2024, AI1, páginas454–455",
+  "notes": "Modelo propio de nave principal con anexo y chimenea. Envolvente comprimida, no réplica métrica del complejo. Anclaje heredado; proximidad con Fresnillo pendiente. Patio y niveles de detalle pendientes."
+}

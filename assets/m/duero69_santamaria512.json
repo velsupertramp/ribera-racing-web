@@ -1,0 +1,27 @@
+{
+  "anchorId": "santa_maria",
+  "modelId": "duero69_santamaria512",
+  "name": "Santa María de Maderuelo",
+  "file": "duero69_santamaria512.glb",
+  "source": "santamaria68-mapped-tangent-mobile512.glb",
+  "sha256": "d4b50205052295e00414304cdb2859ada36705e1203689ab8526ef1c9b9cbf8d",
+  "bytes": 4590932,
+  "triangles": 40538,
+  "anchor": {
+    "x": 557,
+    "y": 27,
+    "z": 146,
+    "rotationYRad": 0
+  },
+  "elevationSpace": "local_y_relative_anchor",
+  "noMerge": true,
+  "visualApproved": false,
+  "nativeMetadata": "santamaria68.geometry.json",
+  "license": "Original geometry by Codex; photographic material maps CC0, individual sources in retained native metadata",
+  "notes": [
+    "Only four prepared native assets, not full populated Duero.",
+    "No collider exported; contextual architecture remains outside continuous protected race corridor.",
+    "512px data maps are explicitly resampled; channels remain and lossless after resampling.",
+    "Palette and coplanar nave/chancel joint still require final reference/render correction; geometry26apertures and connected buttresses pass."
+  ]
+}

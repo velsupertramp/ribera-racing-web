@@ -1,0 +1,319 @@
+{
+ "id": "animals",
+ "name": "Animales de la Ribera",
+ "units": "m",
+ "coords": "glTF/three: +Y arriba, frente del objeto hacia +Z (Blender -Y), izquierda del sujeto hacia +X. Origen = centro de la base.",
+ "layout": "Todos los nodos raíz están en el origen: instanciar por nombre (getObjectByName) sin corregir posición.",
+ "collision_format": "{\"boxes\":[[cx,cz,halfx,halfz,rotY]], \"circles\":[[cx,cz,r]]} en coordenadas locales del objeto (juego)",
+ "objects": {
+  "sheep": {
+   "tris": 841,
+   "size": [
+    0.52,
+    0.9,
+    1.52
+   ],
+   "height": 0.9,
+   "bbox_game": {
+    "min": [
+     -0.26,
+     0.0,
+     -0.59
+    ],
+    "max": [
+     0.26,
+     0.9,
+     0.92
+    ]
+   },
+   "collision": {
+    "boxes": [
+     [
+      0.001,
+      0.165,
+      0.232,
+      0.698,
+      0.0
+     ]
+    ],
+    "circles": [],
+    "dynamic": true
+   },
+   "notes": "Oveja churra: lana blanca, manchas negras alrededor de ojos, orejas y hocico, patas negras por debajo de la rodilla. Cruz ~0,75 m.",
+   "parts": [
+    "sheep_body",
+    "sheep_head",
+    "sheep_legFL",
+    "sheep_legFR",
+    "sheep_legRL",
+    "sheep_legRR"
+   ],
+   "pivots_game": {
+    "sheep_body": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "sheep_head": [
+     0.0,
+     0.78,
+     0.65
+    ],
+    "sheep_legFL": [
+     0.1,
+     0.52,
+     0.34
+    ],
+    "sheep_legFR": [
+     -0.1,
+     0.52,
+     0.34
+    ],
+    "sheep_legRL": [
+     0.11,
+     0.54,
+     -0.36
+    ],
+    "sheep_legRR": [
+     -0.11,
+     0.54,
+     -0.36
+    ]
+   },
+   "withers": 0.75
+  },
+  "cow": {
+   "tris": 1098,
+   "size": [
+    0.74,
+    1.62,
+    2.69
+   ],
+   "height": 1.62,
+   "bbox_game": {
+    "min": [
+     -0.37,
+     0.0,
+     -1.06
+    ],
+    "max": [
+     0.37,
+     1.62,
+     1.63
+    ]
+   },
+   "collision": {
+    "boxes": [
+     [
+      0.0,
+      0.288,
+      0.333,
+      1.236,
+      0.0
+     ]
+    ],
+    "circles": [],
+    "dynamic": true
+   },
+   "notes": "Vaca frisona (Holstein): manchas blancas y negras, ubre rosada, crotales amarillos, descornada. Cruz ~1,45 m.",
+   "parts": [
+    "cow_body",
+    "cow_head",
+    "cow_legFL",
+    "cow_legFR",
+    "cow_legRL",
+    "cow_legRR"
+   ],
+   "pivots_game": {
+    "cow_body": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "cow_head": [
+     0.0,
+     1.43,
+     1.14
+    ],
+    "cow_legFL": [
+     0.19,
+     0.98,
+     0.6
+    ],
+    "cow_legFR": [
+     -0.19,
+     0.98,
+     0.6
+    ],
+    "cow_legRL": [
+     0.21,
+     1.05,
+     -0.6
+    ],
+    "cow_legRR": [
+     -0.21,
+     1.05,
+     -0.6
+    ]
+   },
+   "withers": 1.45
+  },
+  "roe_deer": {
+   "tris": 1002,
+   "size": [
+    0.29,
+    1.21,
+    1.19
+   ],
+   "height": 1.21,
+   "bbox_game": {
+    "min": [
+     -0.14,
+     0.0,
+     -0.46
+    ],
+    "max": [
+     0.14,
+     1.21,
+     0.73
+    ]
+   },
+   "collision": {
+    "boxes": [
+     [
+      0.0,
+      0.134,
+      0.129,
+      0.545,
+      0.0
+     ]
+    ],
+    "circles": [],
+    "dynamic": true
+   },
+   "notes": "Corzo macho en pelaje de verano: pardo rojizo, espejo anal blanco, trufa negra y mentón blanco, cuerna corta de tres puntas. Cruz ~0,75 m.",
+   "parts": [
+    "roe_deer_body",
+    "roe_deer_head",
+    "roe_deer_legFL",
+    "roe_deer_legFR",
+    "roe_deer_legRL",
+    "roe_deer_legRR"
+   ],
+   "pivots_game": {
+    "roe_deer_body": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "roe_deer_head": [
+     0.0,
+     0.93,
+     0.52
+    ],
+    "roe_deer_legFL": [
+     0.072,
+     0.6,
+     0.28
+    ],
+    "roe_deer_legFR": [
+     -0.072,
+     0.6,
+     0.28
+    ],
+    "roe_deer_legRL": [
+     0.078,
+     0.64,
+     -0.26
+    ],
+    "roe_deer_legRR": [
+     -0.078,
+     0.64,
+     -0.26
+    ]
+   },
+   "withers": 0.75
+  },
+  "boar": {
+   "tris": 940,
+   "size": [
+    0.44,
+    0.98,
+    1.81
+   ],
+   "height": 0.98,
+   "bbox_game": {
+    "min": [
+     -0.22,
+     0.0,
+     -0.74
+    ],
+    "max": [
+     0.22,
+     0.98,
+     1.07
+    ]
+   },
+   "collision": {
+    "boxes": [
+     [
+      0.002,
+      0.163,
+      0.199,
+      0.831,
+      0.0
+     ]
+    ],
+    "circles": [],
+    "dynamic": true
+   },
+   "notes": "Jabalí macho: gris pardo oscuro con cerdas, crin dorsal, hocico largo con disco, colmillos pequeños. Cruz ~0,9 m.",
+   "parts": [
+    "boar_body",
+    "boar_head",
+    "boar_legFL",
+    "boar_legFR",
+    "boar_legRL",
+    "boar_legRR"
+   ],
+   "pivots_game": {
+    "boar_body": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "boar_head": [
+     0.0,
+     0.62,
+     0.64
+    ],
+    "boar_legFL": [
+     0.11,
+     0.52,
+     0.38
+    ],
+    "boar_legFR": [
+     -0.11,
+     0.52,
+     0.38
+    ],
+    "boar_legRL": [
+     0.12,
+     0.55,
+     -0.42
+    ],
+    "boar_legRR": [
+     -0.12,
+     0.55,
+     -0.42
+    ]
+   },
+   "withers": 0.9
+  }
+ },
+ "notes": "Jerarquía: nodo <animal> (origen en el suelo, centro) con hijos _body, _head (pivote cuello-cabeza), _legFL/_legFR/_legRL/_legRR (pivote en hombro/cadera; F = delante, R = detrás, L = izquierda del animal = +X). Andar: rotar patas sobre X (+-20 grados, diagonales en fase); pastar: rotar la cabeza sobre X hacia abajo (~+0.6 rad). Material único animal (atlas animals_atlas x COLOR_0).",
+ "materials": {
+  "animal": "atlas: cuerpos (manchas, lana, pelaje, cerdas) + blanco para cabezas y patas (color de vértice)"
+ },
+ "total_tris": 3881
+}

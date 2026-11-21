@@ -1,0 +1,31 @@
+{
+  "id": "basura",
+  "name": "Camión de la basura de Aranda · recolector de carga trasera del Aseo Urbano",
+  "len": 10.1,
+  "wid": 2.61,
+  "hgt": 3.506,
+  "wheelbase": 4.5,
+  "track": 2.0,
+  "wheelR": 0.806,
+  "wheelR_rear": 0.806,
+  "axles_y": [
+    -3.905,
+    0.595
+  ],
+  "parts": [
+    "body",
+    "wheel_fl",
+    "wheel_fr",
+    "wheel_rl",
+    "wheel_rr",
+    "skip",
+    "lightbar"
+  ],
+  "notes": "Revisión local60. Cabina y caja propias inspiradas en familia Eurocargo de referencia y mecanismo de compactación trasero. La oferta municipal consultada no acredita modelo ni entrega de una unidad real. Acristalamiento y ópticas alojados, estribos, llantas con vanos y tambores, neumáticos con canales físicos y mapas propios, compactador y cilindros. Librea institucional y RECOGIDA24 conservadas. Conductor, trabajador y contenedor heredados, pendientes. Pivotes y envolvente mecánica preservados. Mayor coste geométrico; LOD y móvil pendientes. Mejora parcial sin aprobación artística global.",
+  "wid_mirrors": 2.876,
+  "track_rear": 1.76,
+  "susp_comp": 0.07,
+  "wid_visual": 2.61,
+  "toy": 1.3,
+  "cartoon": 6
+}

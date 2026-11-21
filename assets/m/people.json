@@ -1,0 +1,350 @@
+{
+ "id": "people",
+ "name": "Personas estilizadas (1,75 m)",
+ "units": "m",
+ "coords": "glTF/three: +Y arriba, frente del objeto hacia +Z (Blender -Y), izquierda del sujeto hacia +X. Origen = centro de la base.",
+ "layout": "Todos los nodos raíz están en el origen: instanciar por nombre (getObjectByName) sin corregir posición.",
+ "collision_format": "{\"boxes\":[[cx,cz,halfx,halfz,rotY]], \"circles\":[[cx,cz,r]]} en coordenadas locales del objeto (juego)",
+ "objects": {
+  "spectator_a": {
+   "tris": 699,
+   "size": [
+    0.6,
+    1.73,
+    0.31
+   ],
+   "height": 1.78,
+   "bbox_game": {
+    "min": [
+     -0.3,
+     0.06,
+     -0.12
+    ],
+    "max": [
+     0.3,
+     1.78,
+     0.19
+    ]
+   },
+   "collision": {
+    "circles": [
+     [
+      0.0,
+      0.0,
+      0.28
+     ]
+    ],
+    "dynamic": true
+   },
+   "notes": "Espectador: camiseta y vaqueros recoloreables (spec_a_top / spec_a_bottom), zapatillas blancas.",
+   "parts": [
+    "spectator_a_body",
+    "spectator_a_legL",
+    "spectator_a_legR",
+    "spectator_a_armL",
+    "spectator_a_armR"
+   ],
+   "pivots_game": {
+    "spectator_a_body": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "spectator_a_legL": [
+     0.092,
+     0.93,
+     -0.0
+    ],
+    "spectator_a_legR": [
+     -0.092,
+     0.93,
+     -0.0
+    ],
+    "spectator_a_armL": [
+     0.205,
+     1.435,
+     -0.01
+    ],
+    "spectator_a_armR": [
+     -0.205,
+     1.435,
+     -0.01
+    ]
+   }
+  },
+  "spectator_b": {
+   "tris": 724,
+   "size": [
+    0.6,
+    1.73,
+    0.37
+   ],
+   "height": 1.78,
+   "bbox_game": {
+    "min": [
+     -0.3,
+     0.06,
+     -0.18
+    ],
+    "max": [
+     0.3,
+     1.78,
+     0.19
+    ]
+   },
+   "collision": {
+    "circles": [
+     [
+      0.0,
+      0.0,
+      0.28
+     ]
+    ],
+    "dynamic": true
+   },
+   "notes": "Espectadora con coleta: blusa y pantalón recoloreables (spec_b_top / spec_b_bottom).",
+   "parts": [
+    "spectator_b_body",
+    "spectator_b_legL",
+    "spectator_b_legR",
+    "spectator_b_armL",
+    "spectator_b_armR"
+   ],
+   "pivots_game": {
+    "spectator_b_body": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "spectator_b_legL": [
+     0.092,
+     0.93,
+     -0.0
+    ],
+    "spectator_b_legR": [
+     -0.092,
+     0.93,
+     -0.0
+    ],
+    "spectator_b_armL": [
+     0.205,
+     1.435,
+     -0.01
+    ],
+    "spectator_b_armR": [
+     -0.205,
+     1.435,
+     -0.01
+    ]
+   }
+  },
+  "volunteer": {
+   "tris": 767,
+   "size": [
+    0.6,
+    1.73,
+    0.32
+   ],
+   "height": 1.78,
+   "bbox_game": {
+    "min": [
+     -0.3,
+     0.06,
+     -0.13
+    ],
+    "max": [
+     0.3,
+     1.78,
+     0.19
+    ]
+   },
+   "collision": {
+    "circles": [
+     [
+      0.0,
+      0.0,
+      0.28
+     ]
+    ],
+    "dynamic": true
+   },
+   "notes": "Voluntario de Protección Civil: chaqueta naranja de alta visibilidad con bandas reflectantes (material reflective), pantalón azul marino con bandas, rótulo PROTECCIÓN CIVIL en la espalda y emblema (triángulo azul en círculo naranja) en el pecho.",
+   "parts": [
+    "volunteer_body",
+    "volunteer_legL",
+    "volunteer_legR",
+    "volunteer_armL",
+    "volunteer_armR"
+   ],
+   "pivots_game": {
+    "volunteer_body": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "volunteer_legL": [
+     0.092,
+     0.93,
+     -0.0
+    ],
+    "volunteer_legR": [
+     -0.092,
+     0.93,
+     -0.0
+    ],
+    "volunteer_armL": [
+     0.205,
+     1.435,
+     -0.01
+    ],
+    "volunteer_armR": [
+     -0.205,
+     1.435,
+     -0.01
+    ]
+   }
+  },
+  "picker": {
+   "tris": 799,
+   "size": [
+    0.53,
+    1.75,
+    0.8
+   ],
+   "height": 1.81,
+   "bbox_game": {
+    "min": [
+     -0.27,
+     0.06,
+     -0.22
+    ],
+    "max": [
+     0.26,
+     1.81,
+     0.58
+    ]
+   },
+   "collision": {
+    "circles": [
+     [
+      0.0,
+      0.0,
+      0.28
+     ]
+    ],
+    "dynamic": true
+   },
+   "notes": "Vendimiador con sombrero de paja, guantes y caja de plástico con uva sujeta delante (la caja va en picker_body: los brazos están modelados sujetándola; no balancearlos, como mucho +-5 grados).",
+   "parts": [
+    "picker_body",
+    "picker_legL",
+    "picker_legR",
+    "picker_armL",
+    "picker_armR"
+   ],
+   "pivots_game": {
+    "picker_body": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "picker_legL": [
+     0.092,
+     0.93,
+     -0.0
+    ],
+    "picker_legR": [
+     -0.092,
+     0.93,
+     -0.0
+    ],
+    "picker_armL": [
+     0.205,
+     1.435,
+     -0.01
+    ],
+    "picker_armR": [
+     -0.205,
+     1.435,
+     -0.01
+    ]
+   }
+  },
+  "farmer": {
+   "tris": 707,
+   "size": [
+    0.6,
+    1.74,
+    0.32
+   ],
+   "height": 1.79,
+   "bbox_game": {
+    "min": [
+     -0.3,
+     0.06,
+     -0.12
+    ],
+    "max": [
+     0.3,
+     1.79,
+     0.2
+    ]
+   },
+   "collision": {
+    "circles": [
+     [
+      0.0,
+      0.0,
+      0.28
+     ]
+    ],
+    "dynamic": true
+   },
+   "notes": "Agricultor mayor con gorra de visera verde, camisa azul claro, pantalón de pana marrón y algo de barriga.",
+   "parts": [
+    "farmer_body",
+    "farmer_legL",
+    "farmer_legR",
+    "farmer_armL",
+    "farmer_armR"
+   ],
+   "pivots_game": {
+    "farmer_body": [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    "farmer_legL": [
+     0.092,
+     0.93,
+     -0.0
+    ],
+    "farmer_legR": [
+     -0.092,
+     0.93,
+     -0.0
+    ],
+    "farmer_armL": [
+     0.205,
+     1.435,
+     -0.01
+    ],
+    "farmer_armR": [
+     -0.205,
+     1.435,
+     -0.01
+    ]
+   }
+  }
+ },
+ "notes": "Jerarquía: nodo <nombre> (origen en los pies) con hijos _body, _legL, _legR (pivote en la cadera, z=0.93 m), _armL, _armR (pivote en el hombro, z=1.435 m). Animación procedural: rotar piernas y brazos sobre X (andar: piernas +-25 grados en oposición, brazos +-20). Izquierda del sujeto = +X. Recolorear espectadores clonando los materiales spec_*_top / spec_*_bottom y cambiando color. Material reflective: bandas de alta visibilidad.",
+ "materials": {
+  "people": "atlas people_atlas (blanco salvo rótulo/emblema de Protección Civil) x COLOR_0",
+  "spec_a_top": "recoloreable",
+  "spec_a_bottom": "recoloreable",
+  "spec_b_top": "recoloreable",
+  "spec_b_bottom": "recoloreable",
+  "reflective": "bandas reflectantes"
+ },
+ "total_tris": 3696
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ribera Racing · 6.7.18 · beta 146</title>
+<link rel="icon" href="assets/app/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/app/apple-touch-icon.png">
+<meta name="theme-color" content="#1a1210">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Ribera Racing">
+<meta name="description" content="Carreras arcade por la Ribera del Duero: La vuelta a la Ribera, las bodegas subterráneas de Aranda, Aranda ciudad y el Duero en balsa.">
+<style>
+  html, body { height: 100%; margin: 0; background: #1a1210; color: #fbf1dc; overflow: hidden; }
+  #game { position: fixed; inset: 0; width: 100%; height: 100%; display: block; outline: none; touch-action: none; }
+  html, body { overscroll-behavior: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; }
+  @font-face { font-family: 'RR Boot Sans'; src: url('assets/fonts/PublicSans.woff2') format('woff2'); font-weight: 100 900; font-display: swap; }
+  #rr-boot { position: fixed; inset: 0; z-index: 99998; display: flex; align-items: center; box-sizing: border-box; padding: max(24px, env(safe-area-inset-top)) max(24px, env(safe-area-inset-right)) max(24px, env(safe-area-inset-bottom)) max(24px, env(safe-area-inset-left)); background: linear-gradient(90deg,#1d1024e8 0%,#1d1024b8 31%,#1d10246b 58%,#1d102425 100%),url('assets/identity/menu-valle290.webp') center/cover,#1a1210; color: #fbf1dc; font: 600 16px/1.5 'RR Boot Sans', 'Public Sans', sans-serif; text-align: left; overflow: auto; }
+  #rr-boot .rr-boot-card { width: min(520px, 100%); box-sizing: border-box; padding: clamp(16px, 3vw, 32px); margin-left: clamp(0px, 4vw, 70px); border: 0; border-left: 3px solid #f2c14e; border-radius: 0 12px 12px 0; background: linear-gradient(90deg,#211525e8,#2115258c); box-shadow: 0 16px 40px #10091966; }
+  #rr-boot h1 { margin: 0 0 12px; font-size: 0; line-height: 0; width: min(450px,100%); height: clamp(95px,18vw,220px); background:url('assets/identity/ribera-racing-logo.webp') left center/contain no-repeat; }
+  #rr-boot p { margin: 8px 0; }
+  #rr-boot .rr-boot-track { height: 4px; margin: 18px 0; overflow: hidden; border-radius: 4px; background: #fbf1dc55; }
+  #rr-boot .rr-boot-track::after { content: ''; display: block; height: 100%; width: 32%; border-radius: inherit; background: #f2c14e; animation: rr-boot-travel 1.6s ease-in-out infinite alternate; }
+  #rr-boot[data-phase='error'] .rr-boot-track::after, #rr-boot[data-phase='slow'] .rr-boot-track::after { animation: none; width: 100%; }
+  #rr-boot button { min-height: 48px; margin-top: 16px; border: 2px solid #1a1210; border-radius: 14px; padding: 11px 22px; background: #f2c14e; color: #1a1210; font: 800 16px 'RR Boot Sans', sans-serif; cursor: pointer; touch-action: manipulation; }
+  #rr-boot button:focus-visible { outline: 3px solid #fbf1dc; outline-offset: 3px; }
+  #rr-boot button[hidden] { display: none; }
+  #rr-boot small { display: block; margin-top: 12px; color: #fbf1dcaa; font-size: 12px; overflow-wrap: anywhere; }
+  @keyframes rr-boot-travel { from { transform: translateX(0); } to { transform: translateX(212%); } }
+  @media (prefers-reduced-motion: reduce) { #rr-boot .rr-boot-track::after { animation: none; width: 100%; } }
+  @media (max-width:650px) { #rr-boot { align-items:flex-end; } #rr-boot .rr-boot-card { margin:0 0 6vh; width:min(460px,100%); } #rr-boot h1 { height:100px; } }
+  noscript { position: fixed; inset: 0; display: grid; place-items: center; background: #1a1210; font: 18px sans-serif; }
+</style>
+<canvas id="game" tabindex="0" aria-label="Ribera Racing Game"></canvas>
+<div id="rr-boot" data-phase="loading" role="status" aria-live="polite">
+  <div class="rr-boot-card">
+    <h1>Ribera Racing</h1>
+    <p id="rr-boot-message">Abriendo el juego…</p>
+    <div class="rr-boot-track" aria-hidden="true"></div>
+    <p id="rr-boot-help">Elige cómo correr antes de preparar la salida.</p>
+    <button id="rr-boot-retry" type="button" hidden>Volver a intentar</button>
+    <small id="rr-boot-detail" hidden></small>
+  </div>
+</div>
+<noscript>Este juego necesita JavaScript y WebGL.</noscript>
+<script>
+  // El marco del visor necesita foco para recibir el teclado.
+  addEventListener('pointerdown', function () { var g = document.getElementById('game'); if (g && document.activeElement !== g) g.focus({ preventScroll: true }); });
+</script>
+<script id="rr-bootstrap96">
+// Este arranque pequeño sigue visible si falla la descarga o evaluación del módulo.
+(function () {
+  var boot = document.getElementById('rr-boot');
+  var message = document.getElementById('rr-boot-message');
+  var help = document.getElementById('rr-boot-help');
+  var retry = document.getElementById('rr-boot-retry');
+  var detail = document.getElementById('rr-boot-detail');
+  var started = Date.now();
+  var settled = false;
+  var gameURL = new URL('game.js?v=cfce34e211ee1312', document.baseURI).href;
+  var state = window.__RR_BOOT96 = { phase: 'loading', elapsedMs: 0, gameURL: gameURL, error: null };
+  retry.addEventListener('click', function () { retry.disabled = true; location.reload(); });
+  function show(phase, title, explanation, error) {
+    state.phase = phase;
+    state.elapsedMs = Date.now() - started;
+    state.error = error ? String(error.message || error) : null;
+    if (!boot.isConnected) document.body.appendChild(boot);
+    boot.setAttribute('data-phase', phase);
+    message.textContent = title;
+    help.textContent = explanation;
+    retry.hidden = false;
+    if (state.error) { detail.hidden = false; detail.textContent = state.error.slice(0, 220); }
+  }
+  // No es un porcentaje de descarga. Si la red o el módulo se quedan pendientes,
+  // ofrecemos un reintento; una carga tardía aún puede completar el arranque.
+  var watchdog = setInterval(function () {
+    if (!settled && Date.now() - lastProgress > 30000) { clearInterval(watchdog); show('slow', 'El juego está tardando en abrir.', 'La conexión va muy lenta. Puedes volver a intentarlo; si la descarga termina, el menú aparecerá aquí.', null); }
+  }, 5000);
+  // rr-progreso-f9: descarga con avance; el módulo se importa después desde la caché (game.js es inmutable).
+  var expectedBytes = 7354258 /*rr-bytes-f9*/, lastProgress = Date.now();
+  function descarga() {
+    if (!window.fetch || !window.ReadableStream || !expectedBytes) return Promise.resolve();
+    return fetch(gameURL).then(function (r) {
+      if (!r.ok || !r.body) return;
+      var reader = r.body.getReader(), got = 0;
+      function pump() { return reader.read().then(function (x) { if (x.done) return; got += x.value.length; lastProgress = Date.now();
+        message.textContent = 'Descargando el juego… ' + Math.min(99, Math.round(got * 100 / expectedBytes)) + ' %'; return pump(); }); }
+      return pump();
+    }).catch(function () { /* el import lo vuelve a intentar */ });
+  }
+  descarga().then(function () { message.textContent = 'Preparando la portada…'; help.textContent = 'Ya está descargado; falta montarlo.'; lastProgress = Date.now(); return import(gameURL); }).then(function () {
+    settled = true;
+    clearInterval(watchdog);
+    state.phase = 'ready';
+    state.elapsedMs = Date.now() - started;
+    state.error = null;
+    boot.remove();
+  }).catch(function (error) {
+    settled = true;
+    clearInterval(watchdog);
+    show('error', 'No se ha podido abrir el juego.', 'Vuelve a intentarlo. Si vuelve a fallar, envía el mensaje de abajo para revisarlo.', error);
+    console.error('[Ribera Racing boot96]', error);
+  });
+}());
+</script>
+
+</html>

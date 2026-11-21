@@ -1,0 +1,30 @@
+{
+  "headCenter": [
+    0,
+    1.6990000009536743,
+    -0.017400000244379044
+  ],
+  "headRadius": 0.11,
+  "actorScale": 1.18,
+  "wheelCenter": null,
+  "wheelAxis": null,
+  "wheelSteerAngle": 0.35,
+  "wheelRotationNode": null,
+  "blinkPeriod": 4.5,
+  "gripIK": null,
+  "character": "El Recorte, Polic\u00eda Local ficticio",
+  "characterId": "recorte94",
+  "role": "passenger",
+  "nativeMount94": {
+    "headNative": [
+      -0.4,
+      1.335,
+      -0.12
+    ],
+    "mode": "explicit-head-anchor",
+    "status": "STUDY_FIT_PENDING_CONTACT_AND_GPU"
+  },
+  "contextClip": "anotar_incidencia",
+  "uniformReferenceYear": 2022,
+  "license": "CC0 Quaternius family anatomy; own adaptation/rig/hair/facial sculpture/clothing/maps. Municipal shield institutional identity, no invented police logo."
+}

@@ -1,0 +1,33 @@
+{
+  "wheelCenter": [
+    0,
+    0.205,
+    0.334
+  ],
+  "wheelCenterBlender": [
+    0,
+    -0.334,
+    0.205
+  ],
+  "wheelRadius": 0.132,
+  "wheelOuterRadius": 0.142,
+  "wheelAxis": [
+    0,
+    0.25881904510252074,
+    0.9659258262890683
+  ],
+  "wheelAxisBlender": [
+    0,
+    -0.9659258262890683,
+    0.25881904510252074
+  ],
+  "wheelTiltDegrees": 15,
+  "wheelSteerAngle": 0.3490658503988659,
+  "visualSteerFactor": 0.3490658503988659,
+  "factorConvention": "Apply visualSteerFactor to normalized steering weight [-1,+1], not raw physics steer. steer_left=-20deg around the reported tilted Three wheelAxis; physics positive steer means left. Actor hands solved for same motion.",
+  "localOrigin": "Centre of rim. Driver-facing normal is opposite wheelAxis; column extends along wheelAxis toward dashboard. Place at wheelCenter in driver coordinate space, then apply same driver scale and translation.",
+  "columnDirection": "Tilted wheelAxis toward dashboard; source tilt -15deg about X; actual cabin must be inspected",
+  "triangles": 3280,
+  "license": "Original meshes/materials authored for Ribera Racing; no copied logo or external model",
+  "limit": "Candidate two-spoke period-style wheel, not claimed exact Renault model/part."
+}

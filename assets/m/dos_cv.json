@@ -1,0 +1,74 @@
+{
+  "id": "dos_cv",
+  "name": "Las Dos Burras",
+  "len": 3.84,
+  "wid": 1.481,
+  "wid_mirrors": 1.53,
+  "hgt": 2.096,
+  "wheelbase": 2.4,
+  "track": 1.26,
+  "wheelR": 0.439,
+  "wheelR_rear": 0.439,
+  "axles_y": [
+    -1.28,
+    1.12
+  ],
+  "parts": [
+    "body",
+    "wheel_fl",
+    "wheel_fr",
+    "wheel_rl",
+    "wheel_rr"
+  ],
+  "tris": 52462,
+  "bbox_min": [
+    -0.765,
+    -1.922,
+    0.004
+  ],
+  "bbox_max": [
+    0.765,
+    1.917,
+    2.096
+  ],
+  "notes": "Citroën 2CV6 interpretado sobre referencias de fabricante; año y acabado exactos sin confirmar. Superficies propias de chapa, ventanas abiertas y lona; capó completo con cantos, cara inferior y bisagra propia. Abuela C2 e interior conservados. Ruedas, faros y carga heredados, acabado pendiente. Medidas de física conservadas; no son una homologación del vehículo real.",
+  "toy": 1.416,
+  "cartoon": 6,
+  "susp_comp": 0.035,
+  "body_width_rendered81": 1.52,
+  "collision_wid_preserved81": true,
+  "model_year": "unverified",
+  "reference_family81": "Late 2CV6 berlina; maker 1974 photo and 1984 manual shape reference, exact trim/year unverified",
+  "privateDriverCompartment86": {
+    "version": 1,
+    "characterId": "abuela2cv83",
+    "engineVisualBoundsNative": {
+      "min": [
+        -0.17,
+        0.65,
+        1.0
+      ],
+      "max": [
+        0.17,
+        1.03,
+        1.38
+      ]
+    },
+    "scope": "Ajuste visual del motor procedural bajo el capó para el montaje de abuela2cv83. No altera la física ni declara cotas del fabricante."
+  },
+  "privateDamageParts88": {
+    "version": 1,
+    "authoringId": "dos_cv_R1_surfaces81",
+    "hood": {
+      "material": "dos_cv_paint_hood_r1",
+      "sourceNode": "81_pressed_three_rib_hood",
+      "triangleCount": 2296,
+      "hingeNative": [
+        0,
+        1.15,
+        0.952
+      ],
+      "coordinateSystem": "body local, metres, Y up, +Z forward"
+    }
+  }
+}

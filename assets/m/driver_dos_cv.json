@@ -1,0 +1,194 @@
+{
+  "mountOverride": {
+    "type": "private_2CV_driver_interior_only",
+    "seatOffsetNative": [
+      0,
+      0,
+      0
+    ],
+    "wheelCentreOffsetNative": [
+      0,
+      0,
+      0
+    ],
+    "lowerCushionMeters": 0.18942649459767458,
+    "reason": "Actual adult body at exact inherited head/SEAT and wheel. Only private driver cushion/pedestal and new physical backrest/pedals, exterior/ejes/cargo/pivots/physics retained. No Citroen factory dimension."
+  },
+  "headCenter": [
+    0,
+    1.402500033378601,
+    -0.012749999761581421
+  ],
+  "headRadius": 0.105,
+  "actorScale": 1,
+  "wheelCenter": [
+    0,
+    1.2223564386367798,
+    0.27998319268226624
+  ],
+  "wheelAxis": [
+    0,
+    0.4794255495071411,
+    0.8775825500488281
+  ],
+  "wheelSteerAngle": 1.08,
+  "wheelRotationNode": "Abuela83_wheel_rotor",
+  "blinkPeriod": 4.5,
+  "gripIK": {
+    "version": 1,
+    "sides": {
+      "L": {
+        "bones": {
+          "upperArm": "upperarm_l",
+          "forearm": "lowerarm_l",
+          "hand": "hand_l",
+          "fingers": [
+            "index_01_l",
+            "index_02_l",
+            "index_03_l",
+            "middle_01_l",
+            "middle_02_l",
+            "middle_03_l",
+            "ring_01_l",
+            "ring_02_l",
+            "ring_03_l",
+            "pinky_01_l",
+            "pinky_02_l",
+            "pinky_03_l",
+            "thumb_01_l",
+            "thumb_02_l",
+            "thumb_03_l"
+          ]
+        },
+        "mesh": "Abuela83_mano_L",
+        "openingMorphs": [
+          "GripOpen125L",
+          "GripOpen250L",
+          "GripOpen375L",
+          "GripOpen500L",
+          "GripOpen625L",
+          "GripOpen750L",
+          "GripOpen875L",
+          "GripOpen1000L"
+        ],
+        "neutralWrist": [
+          0.18435501133582577,
+          1.1623407218982775,
+          0.1917741159776859
+        ],
+        "neutralHandQuaternion": [
+          -0.006958229282649325,
+          0.8645750044588378,
+          0.5024472506184297,
+          0.002899020617139214
+        ],
+        "neutralElbow": [
+          0.1921781357052308,
+          1.0357198532999565,
+          0.022035705859440077
+        ],
+        "lengthUpper": 0.20429069942933017,
+        "lengthForearm": 0.21190840830170535,
+        "releaseOffset": [
+          -0.01,
+          0.03,
+          -0.035
+        ]
+      },
+      "R": {
+        "bones": {
+          "upperArm": "upperarm_r",
+          "forearm": "lowerarm_r",
+          "hand": "hand_r",
+          "fingers": [
+            "index_01_r",
+            "index_02_r",
+            "index_03_r",
+            "middle_01_r",
+            "middle_02_r",
+            "middle_03_r",
+            "ring_01_r",
+            "ring_02_r",
+            "ring_03_r",
+            "pinky_01_r",
+            "pinky_02_r",
+            "pinky_03_r",
+            "thumb_01_r",
+            "thumb_02_r",
+            "thumb_03_r"
+          ]
+        },
+        "mesh": "Abuela83_mano_R",
+        "openingMorphs": [
+          "GripOpen125R",
+          "GripOpen250R",
+          "GripOpen375R",
+          "GripOpen500R",
+          "GripOpen625R",
+          "GripOpen750R",
+          "GripOpen875R",
+          "GripOpen1000R"
+        ],
+        "neutralWrist": [
+          -0.1843551144451475,
+          1.1623407059886814,
+          0.19177428253375733
+        ],
+        "neutralHandQuaternion": [
+          0.0069581231786270785,
+          0.8645750373798695,
+          0.502447194757979,
+          -0.002899307068571661
+        ],
+        "neutralElbow": [
+          -0.1921784467101142,
+          1.0357197735256907,
+          0.02203577240675196
+        ],
+        "lengthUpper": 0.2042909855911523,
+        "lengthForearm": 0.21190853424451986,
+        "releaseOffset": [
+          -0.01,
+          0.03,
+          -0.035
+        ]
+      }
+    },
+    "gesture": {
+      "openEnd": 0.15,
+      "liftEnd": 0.3,
+      "returnStart": 0.65,
+      "closeStart": 0.85,
+      "openingPathPortion": 0.2,
+      "maximumReleaseSpeed": 4.5
+    },
+    "gesturePath": {
+      "version": 2,
+      "characterId": "abuela2cv83",
+      "side": "L",
+      "withdrawMeters": 0.045,
+      "directionActor": [
+        0,
+        -0.4794255495071411,
+        -0.8775825500488281
+      ],
+      "clearanceLegActor": [
+        0.05,
+        0,
+        0
+      ],
+      "phaseKnots": [
+        0,
+        0.16,
+        0.3,
+        0.63,
+        0.8,
+        1
+      ],
+      "maximumWristSpeed": 0.3,
+      "maximumOpeningRate": 6.0,
+      "activationWeight": 0.01
+    }
+  },
+  "characterId": "abuela2cv83"
+}

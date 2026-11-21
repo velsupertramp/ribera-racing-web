@@ -1,0 +1,273 @@
+{
+ "note": "Colisiones en coordenadas locales del juego (x = este, z = sur; origen en el centro de la base; frente a +z). boxes: [cx, cz, halfx, halfz, rotY]; circles: [cx, cz, r].",
+ "objects": {
+  "barrel": {
+   "boxes": [],
+   "circles": [
+    [
+     0,
+     0,
+     0.36
+    ]
+   ]
+  },
+  "barrel_stack": {
+   "boxes": [
+    [
+     0,
+     0,
+     1.12,
+     0.5,
+     0
+    ]
+   ],
+   "circles": []
+  },
+  "bale_square": {
+   "boxes": [
+    [
+     0,
+     0,
+     1.2,
+     0.6,
+     0
+    ]
+   ],
+   "circles": []
+  },
+  "bale_round": {
+   "boxes": [
+    [
+     0,
+     0,
+     0.62,
+     0.74,
+     0
+    ]
+   ],
+   "circles": []
+  },
+  "stone_wall_2m": {
+   "boxes": [
+    [
+     0,
+     0,
+     1.0,
+     0.3,
+     0
+    ]
+   ],
+   "circles": []
+  },
+  "fence_2m": {
+   "boxes": [
+    [
+     0,
+     0.03,
+     1.0,
+     0.1,
+     0
+    ]
+   ],
+   "circles": []
+  },
+  "guardrail_4m": {
+   "boxes": [
+    [
+     0,
+     -0.05,
+     2.0,
+     0.14,
+     0
+    ]
+   ],
+   "circles": []
+  },
+  "sign_town_entry": {
+   "boxes": [],
+   "circles": [
+    [
+     -0.52,
+     -0.055,
+     0.1
+    ],
+    [
+     0.52,
+     -0.055,
+     0.1
+    ]
+   ]
+  },
+  "sign_town_exit": {
+   "boxes": [],
+   "circles": [
+    [
+     -0.52,
+     -0.055,
+     0.1
+    ],
+    [
+     0.52,
+     -0.055,
+     0.1
+    ]
+   ]
+  },
+  "km_post": {
+   "boxes": [
+    [
+     0,
+     0,
+     0.2,
+     0.09,
+     0
+    ]
+   ],
+   "circles": []
+  },
+  "sign_warning": {
+   "boxes": [],
+   "circles": [
+    [
+     0,
+     -0.05,
+     0.1
+    ]
+   ]
+  },
+  "chevron": {
+   "boxes": [],
+   "circles": [
+    [
+     -0.4,
+     -0.05,
+     0.1
+    ],
+    [
+     0.4,
+     -0.05,
+     0.1
+    ]
+   ]
+  },
+  "billboard": {
+   "boxes": [
+    [
+     -2.6,
+     -0.26,
+     0.2,
+     0.2,
+     0
+    ],
+    [
+     2.6,
+     -0.26,
+     0.2,
+     0.2,
+     0
+    ]
+   ],
+   "circles": []
+  },
+  "bench": {
+   "boxes": [
+    [
+     0,
+     0,
+     0.9,
+     0.28,
+     0
+    ]
+   ],
+   "circles": []
+  },
+  "street_lamp": {
+   "boxes": [],
+   "circles": [
+    [
+     0,
+     0,
+     0.2
+    ]
+   ]
+  },
+  "street_lamp_wall": {
+   "boxes": [],
+   "circles": []
+  },
+  "fountain": {
+   "boxes": [
+    [
+     0,
+     0.07,
+     1.25,
+     0.47,
+     0
+    ],
+    [
+     0,
+     -0.62,
+     0.62,
+     0.27,
+     0
+    ]
+   ],
+   "circles": []
+  },
+  "cone": {
+   "boxes": [],
+   "circles": [
+    [
+     0,
+     0,
+     0.2
+    ]
+   ]
+  },
+  "bollard": {
+   "boxes": [],
+   "circles": [
+    [
+     0,
+     0,
+     0.11
+    ]
+   ]
+  }
+ },
+ "notes": {
+  "stone_wall_2m": "Módulo de 2 m a lo largo de x (de -1 a +1); se encadena cada 2 m. Frente = -Y (+Z del juego).",
+  "fence_2m": "Módulo de 2 m; el poste va en x = -1 (en cadena queda un poste cada 2 m; añadir otro módulo o un poste suelto al final).",
+  "guardrail_4m": "Módulo de 4 m a lo largo de x (-2..+2), postes en x = ±1; la cara de la onda mira a -Y (+Z del juego, lado de la calzada).",
+  "sign_town_entry": "Placa de 1.60 x 0.55 m (proporción 2.909:1) con el borde inferior a 1.55 m. La cara delantera usa el material \"sign_face\" con UV 0..1 sobre toda la placa (orla negra incluida; zona útil para el nombre: u 0,05..0,95, v 0,12..0,88). El juego puede sustituir el mapa o dibujar el nombre sobre una copia de arch_sign_face.png.",
+  "sign_town_exit": "Placa de 1.60 x 0.55 m (proporción 2.909:1) con el borde inferior a 1.55 m. La cara delantera usa el material \"sign_face\" con UV 0..1 sobre toda la placa (orla negra incluida; zona útil para el nombre: u 0,05..0,95, v 0,12..0,88). El juego puede sustituir el mapa o dibujar el nombre sobre una copia de arch_sign_face.png. En la de salida la franja roja es geometría delante de la cara, así queda sobre el nombre.",
+  "km_post": "Hito de carretera nacional: capuchón rojo con \"N-122\" y el número 272 pintado (genérico).",
+  "sign_warning": "Triángulo de 0,90 m (peligro genérico \"!\") con el borde inferior a 1,70 m.",
+  "chevron": "Los cheurones apuntan a +X (a la derecha vista de frente). Para una curva a la izquierda, escalar x = -1.",
+  "billboard": "Panel de 8 x 3 m (proporción 8:3) con el borde inferior a 3,2 m. La cara delantera usa el material \"billboard_panel\" con UV 0..1 sobre todo el panel; el juego asigna ahí su textura (la incluida es un papel en blanco).",
+  "street_lamp": "Farol de columna de fundición (3,9 m). Cristales con el material emisivo \"lamp_glass\" (subir emissiveIntensity de noche).",
+  "street_lamp_wall": "Origen al pie del muro bajo el brazo; el plano de fachada es y = 0 (z = 0 del juego) y el farol vuela 0,75 m hacia -Y (+Z del juego) a 3,3-4,3 m de altura. No necesita colisión.",
+  "fountain": "Fuente de pilar con dos caños y pilón de 2,4 x 0,9 m; el agua usa el material de vidrio (arch_glass)."
+ },
+ "tris": {
+  "barrel": 304,
+  "barrel_stack": 836,
+  "bale_square": 30,
+  "bale_round": 188,
+  "stone_wall_2m": 128,
+  "fence_2m": 69,
+  "guardrail_4m": 104,
+  "sign_town_entry": 104,
+  "sign_town_exit": 106,
+  "km_post": 42,
+  "sign_warning": 30,
+  "chevron": 56,
+  "billboard": 144,
+  "bench": 156,
+  "street_lamp": 266,
+  "street_lamp_wall": 170,
+  "fountain": 146,
+  "cone": 60,
+  "bollard": 136
+ }
+}

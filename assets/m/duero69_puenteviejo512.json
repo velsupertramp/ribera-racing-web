@@ -1,0 +1,27 @@
+{
+  "anchorId": "puente_viejo",
+  "modelId": "duero69_puenteviejo512",
+  "name": "Puente Viejo de Maderuelo",
+  "file": "duero69_puenteviejo512.glb",
+  "source": "bridge_old68-tangent-mobile512.glb",
+  "sha256": "5a77ce6e25f0c94ccc32886b81c5af6ffc24d01608a33874188d934d0f021c37",
+  "bytes": 2004540,
+  "triangles": 10976,
+  "anchor": {
+    "x": 509,
+    "y": 13.8,
+    "z": 188.5,
+    "rotationYRad": -0.2213144423477913
+  },
+  "elevationSpace": "local_y_relative_anchor",
+  "noMerge": true,
+  "visualApproved": false,
+  "nativeMetadata": "puente_viejo68.geometry.json",
+  "license": "Original geometry by Codex; photographic material maps CC0, individual sources in retained native metadata",
+  "notes": [
+    "Only four prepared native assets, not full populated Duero.",
+    "No collider exported; contextual architecture remains outside continuous protected race corridor.",
+    "512px data maps are explicitly resampled; channels remain and lossless after resampling.",
+    "Actualfourold/sixteennewarches; compressed game lengths,not a real-site survey. Existing lateral water/heads supported by frozen native terrain API."
+  ]
+}

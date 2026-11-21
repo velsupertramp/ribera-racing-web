@@ -1,0 +1,66 @@
+{
+ "id": "pascual_train",
+ "gauge": 1.668,
+ "rail_top_z": 0.0,
+ "cars": {
+  "loco": {
+   "len_over_buffers": 20.46,
+   "bogie_centres_y": [
+    -6.25,
+    6.25
+   ],
+   "axles_y": [
+    -8.2,
+    -6.25,
+    -4.3,
+    4.3,
+    6.25,
+    8.2
+   ],
+   "wheelR": 0.508,
+   "front": "-Y"
+  },
+  "wagon_a": {
+   "len_over_buffers": 18.76,
+   "bogie_centres_y": [
+    -6.3,
+    6.3
+   ],
+   "axles_y": [
+    -7.2,
+    -5.4,
+    5.4,
+    7.2
+   ],
+   "wheelR": 0.46,
+   "containers": [
+    "LECHE",
+    "YOGUR"
+   ]
+  },
+  "wagon_b": {
+   "len_over_buffers": 18.76,
+   "bogie_centres_y": [
+    -6.3,
+    6.3
+   ],
+   "axles_y": [
+    -7.2,
+    -5.4,
+    5.4,
+    7.2
+   ],
+   "wheelR": 0.46,
+   "containers": [
+    "YOGUR",
+    "LECHE"
+   ]
+  }
+ },
+ "layout_in_glb_y": {
+  "loco": 0.0,
+  "wagon_a": 19.66,
+  "wagon_b": 38.47
+ },
+ "notes": "Origen de cada coche en su centro a cota de cabeza de carril; eje longitudinal Y de Blender (glTF -Z), frente hacia -Y. Coches separados 0,05 m entre topes en el GLB."
+}

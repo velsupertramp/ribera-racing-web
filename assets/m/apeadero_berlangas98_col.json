@@ -1,0 +1,27 @@
+{
+  "boxes": [
+    [
+      1,
+      -13.4,
+      6.4,
+      3.3,
+      0
+    ],
+    [
+      -0.45,
+      -9.265,
+      0.15,
+      0.835,
+      0
+    ],
+    [
+      5.25,
+      -9.265,
+      0.15,
+      0.835,
+      0
+    ]
+  ],
+  "circles": [],
+  "notes": "Only the unchanged side building and two porch returns. The road canopy and all six support circles were removed by Adrian on 2026-10-05."
+}
