@@ -36,9 +36,9 @@
     "sha256": "16b013bf1a3a02f2f7318a6ba231bad13ca7f793714530c859d7ecee2dbc4759"
   },
   "aranda1503": {
-    "stamp": "32b9b34a92e007265fdc7696430d490b0b965e10ffae1f1bdc8db078f3a8922e",
-    "bytes": 3255605,
+    "stamp": "04b968bdbf8138bd47937c393cd6c27e2c9169808c3f863a360bd46b7bb2f5e1",
+    "bytes": 3342449,
     "rawBytes": 13963856,
-    "sha256": "833a15f3cf3a3d0062c845b44a11dc5e6b0cd39471e8228cbff4b05f0dd7d8b4"
+    "sha256": "d04ca68d21a4447aebba7c5c5fdff8367df61ae8991d31ae52536993e841e9cd"
   }
 }
