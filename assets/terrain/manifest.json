@@ -30,10 +30,10 @@
     }
   },
   "duero": {
-    "stamp": "3d8ee1e4e757b910c8d353a1b8447b0e5d3cd16a254afc9b058f2488d90f17b7",
-    "bytes": 768942,
+    "stamp": "928da9e3a66e810afc7fba7c40bcc230143fdf6b8aec4d8c001f25ff34e496bb",
+    "bytes": 769407,
     "rawBytes": 2119752,
-    "sha256": "e5e339ba7cb2870090ec7a5384b4f46a0ce332a566859bdc3a5ef477f0f6393d"
+    "sha256": "1d4e02f9dd4f7dc3459cac732b23ac28bbea95b56d885ec8c81837c03cf6a5f3"
   },
   "aranda1503": {
     "stamp": "5d1776e8b4173cb134cf939ca2bb41cd0e67548743fb95c6cc956a61965d77ca",
