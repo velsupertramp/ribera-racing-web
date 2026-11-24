@@ -40,5 +40,11 @@
     "bytes": 3840838,
     "rawBytes": 12414816,
     "sha256": "06013597ab8371978563ddeb4d5653cba0b2685125ffd88bbd3f77754e4ff384"
+  },
+  "navidad": {
+    "stamp": "564d1c96e71b3cd6b0f490cbf15cfe557cb4f4aa4c40363f6b35340b6d2fcf9f",
+    "bytes": 1331669,
+    "rawBytes": 5985744,
+    "sha256": "759f2a694d00ad0c431f469fdc5cba0fc945c9dfec9840d09d661b4cb37cc9c6"
   }
 }
