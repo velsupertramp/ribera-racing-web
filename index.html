@@ -59,7 +59,7 @@
   var detail = document.getElementById('rr-boot-detail');
   var started = Date.now();
   var settled = false;
-  var gameURL = new URL('game.js?v=91d7f04ddecbbf3a', document.baseURI).href;
+  var gameURL = new URL('game.js?v=cb674f3f2268691a', document.baseURI).href;
   var state = window.__RR_BOOT96 = { phase: 'loading', elapsedMs: 0, gameURL: gameURL, error: null };
   retry.addEventListener('click', function () { retry.disabled = true; location.reload(); });
   function show(phase, title, explanation, error) {
@@ -79,7 +79,7 @@
     if (!settled && Date.now() - lastProgress > 30000) { clearInterval(watchdog); show('slow', 'El juego está tardando en abrir.', 'La conexión va muy lenta. Puedes volver a intentarlo; si la descarga termina, el menú aparecerá aquí.', null); }
   }, 5000);
   // rr-progreso-f9: descarga con avance; el módulo se importa después desde la caché (game.js es inmutable).
-  var expectedBytes = 7850480 /*rr-bytes-f9*/, lastProgress = Date.now();
+  var expectedBytes = 7852233 /*rr-bytes-f9*/, lastProgress = Date.now();
   function descarga() {
     if (!window.fetch || !window.ReadableStream || !expectedBytes) return Promise.resolve();
     return fetch(gameURL).then(function (r) {
