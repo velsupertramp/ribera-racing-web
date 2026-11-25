@@ -55,13 +55,13 @@
     }
   },
   "navidad": {
-    "stamp": "0a4b47f9fef9d8f4ebab887d662f313a09f4475a150511adae1e76175e70b9af",
-    "bytes": 1131104,
+    "stamp": "88558024962c2648a99bd974c230e401bc01432fc99c0100e3b3efac086ebfad",
+    "bytes": 1134066,
     "rawBytes": 5985752,
-    "sha256": "5f5da721318dba5a0b51200f8905061515ccad629564cca655756424e25ab5b9",
+    "sha256": "be09ba6f8f6a9a2585827239aff853fb2eb9752062aba0eba27c4aad71a7a1d6",
     "m": {
-      "bytes": 414930,
-      "h": "d68c9e00ee7ee596"
+      "bytes": 417750,
+      "h": "428ff3060a061c3f"
     }
   }
 }
