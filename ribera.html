@@ -59,7 +59,7 @@
   var detail = document.getElementById('rr-boot-detail');
   var started = Date.now();
   var settled = false;
-  var gameURL = new URL('game.js?v=a8e4670eb41e9860', document.baseURI).href;
+  var gameURL = new URL('game.js?v=072dfa642a264db1', document.baseURI).href;
   var state = window.__RR_BOOT96 = { phase: 'loading', elapsedMs: 0, gameURL: gameURL, error: null };
   retry.addEventListener('click', function () { retry.disabled = true; location.reload(); });
   function show(phase, title, explanation, error) {
