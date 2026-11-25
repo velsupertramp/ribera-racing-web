@@ -9,6 +9,11 @@ self.addEventListener('activate', (e) => e.waitUntil((async () => {
   await self.clients.claim();
 })()));
 const guardar = async (cache, req, res) => { if (res && res.status === 200 && res.type !== 'opaque') { try { await cache.put(req, res.clone()); } catch (e) { /* sin sitio */ } } return res; };
+// (25/11, «tarda mucho la carga de todo»): la respuesta va a la página en cuanto llegan los bytes y se guarda detrás
+// (antes la página esperaba a que el fichero entero estuviera escrito en la caché); las copias viejas del mismo fichero
+// se buscan sólo entre las de esa ruta, no recorriendo toda la caché en cada fichero nuevo
+const guardarDetras = (e, cache, req, res, limpiar) => { if (res && res.status === 200 && res.type !== 'opaque') { const copia = res.clone();
+  e.waitUntil(cache.put(req, copia).then(limpiar).catch(() => { /* sin sitio */ })); } return res; };
 // La página nueva solo se guarda cuando ya está guardado el game.js que pide: si no, abrirla sin red fallaría
 const renovarPagina = async (c, req) => {
   const res = await fetch(req); if (!res || res.status !== 200 || res.type === 'opaque') return res;
@@ -38,15 +43,14 @@ self.addEventListener('fetch', (e) => {
   if (u.searchParams.has('v')) {
     e.respondWith(caches.open(CACHE).then(async (c) => {
       const hit = await c.match(req); if (hit) return hit;
-      const res = await guardar(c, req, await fetch(req));
-      try { for (const k of await c.keys()) { const ku = new URL(k.url); if (ku.pathname === u.pathname && ku.search !== u.search) await c.delete(k); } } catch (err) { /* nada */ }
-      return res;
+      return guardarDetras(e, c, req, await fetch(req), async () => { for (const k of await c.keys(u.origin + u.pathname, { ignoreSearch: true })) if (new URL(k.url).search !== u.search) await c.delete(k); });
     }));
     return;
   }
   e.respondWith(caches.open(CACHE).then(async (c) => {
     const hit = await c.match(req);
-    const red = fetch(req).then((res) => guardar(c, req, res)).catch(() => hit || Response.error());
-    return hit || red;
+    const red = fetch(req).then((res) => guardarDetras(e, c, req, res, null)).catch(() => hit || Response.error());
+    if (hit) { e.waitUntil(red.catch(() => null)); return hit; }
+    return red;
   }));
 });

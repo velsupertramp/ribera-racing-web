@@ -37,14 +37,22 @@
   },
   "aranda1503": {
     "stamp": "1c2e8a6b51d5850cd15dfcb58d5fa92d55828afcfc0b54f7bbe8b5bec5719f8c",
-    "bytes": 3844369,
-    "rawBytes": 12414816,
-    "sha256": "6a92eb3794a07118edc44e64cac3034267eb729150e0ed044704be3663d5751d"
+    "bytes": 2811733,
+    "rawBytes": 12414824,
+    "sha256": "0b21336b42e4f544283497a1a318492f448b5e4f2e76bb55f90a1c7c790676d5",
+    "m": {
+      "bytes": 982880,
+      "h": "c550406da86a9bf4"
+    }
   },
   "navidad": {
     "stamp": "0a4b47f9fef9d8f4ebab887d662f313a09f4475a150511adae1e76175e70b9af",
-    "bytes": 1344638,
-    "rawBytes": 5985744,
-    "sha256": "f077bad64d0a25b1de8c731023621c92a68ca96031bd912e6cbf70833bba9641"
+    "bytes": 1131104,
+    "rawBytes": 5985752,
+    "sha256": "5f5da721318dba5a0b51200f8905061515ccad629564cca655756424e25ab5b9",
+    "m": {
+      "bytes": 414930,
+      "h": "d68c9e00ee7ee596"
+    }
   }
 }
