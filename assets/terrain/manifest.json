@@ -7,6 +7,9 @@
     "m": {
       "bytes": 1757304,
       "h": "826659e6efa2cadb"
+    },
+    "far": {
+      "h": "9ac792220134997f"
     }
   },
   "bodegas": {
@@ -27,13 +30,19 @@
     "m": {
       "bytes": 907223,
       "h": "f22e824b31a74838"
+    },
+    "far": {
+      "h": "7cad3358d6709321"
     }
   },
   "duero": {
     "stamp": "928da9e3a66e810afc7fba7c40bcc230143fdf6b8aec4d8c001f25ff34e496bb",
     "bytes": 769407,
     "rawBytes": 2119752,
-    "sha256": "1d4e02f9dd4f7dc3459cac732b23ac28bbea95b56d885ec8c81837c03cf6a5f3"
+    "sha256": "1d4e02f9dd4f7dc3459cac732b23ac28bbea95b56d885ec8c81837c03cf6a5f3",
+    "far": {
+      "h": "ebf99223c2427e2e"
+    }
   },
   "aranda1503": {
     "stamp": "1c2e8a6b51d5850cd15dfcb58d5fa92d55828afcfc0b54f7bbe8b5bec5719f8c",
